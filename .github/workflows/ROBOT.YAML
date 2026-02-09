@@ -14,3 +14,7 @@ jobs:
           ls -la
           node -v
           # Add any other bash commands here
+on: 
+  workflow_dispatch:
+  push:
+    branches: [ main ] # This "wakes up" the action on your next push

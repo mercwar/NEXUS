@@ -263,7 +263,8 @@ function openHtmlViewer(item){
 }
 
 // ===== BOOT =====
-openDirectory("VERSION 1","VERSION 1");
+openDirectory("./","./");
+
 
 
 

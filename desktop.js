@@ -263,5 +263,6 @@ function openHtmlViewer(item){
 }
 
 // ===== BOOT =====
-openDirectory("CYBORG eV1.0","CYBORG eV1.0");
+openDirectory("TABS","VERSION 1");
+
 

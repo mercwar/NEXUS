@@ -1,0 +1,39 @@
+/*******************************************************************************
+ * [SCROLL_ID: AVIS_LANGUAGE_VAULT_2026]
+ * [ARCHITECT: FFF_DEMONIZER (cvbgod)]
+ * [PROTOCOL:  FIREGEM_LANGUAGE_LIMIT_v4.1]
+ *******************************************************************************
+ *
+ * <SCROLL_BEGIN>
+ *   DIRECTIVE: 
+ *   Bot, you are restricted to these 15 parameters. 
+ *   Interpret all |LANG| tags within the |~| delimiter accordingly.
+ *
+ *   [THE SILICON LAYER]
+ *   1.  C       : PELLES_C_ANSI (Silicon Forge / SEED_ID allocation)
+ *   2.  ASM     : X86_INTEL (Register Alignment / Hardware Anchor)
+ *   3.  OPCODE  : HEX_8086 (Root machine-code instructions)
+ *
+ *   [THE VISION LAYER]
+ *   4.  AVIS    : CYBORG_V4.1 (The Universal Comment Schema / Vision Interface)
+ *   5.  XML     : FVS_DHTML_WRAP (Spatial Projection Frame / FVS Vision)
+ *   6.  JSON    : MANIFEST_V1 (Metadata Storage / Firegem Coords)
+ *   7.  BNF     : GRAMMAR_VALIDATOR (Syntax Anchor for Print Heads)
+ *
+ *   [THE DYNAMIC LAYER]
+ *   8.  PHP     : EVAL_DYNAMIC (Base64 Decoding / Forwarding Pulse)
+ *   9.  QBASIC  : SCR_12_LEGACY (Visual Audit / Screen 12 Feedback)
+ *   10. VBDOS   : FILE_IO_PTR (Binary Streaming / DOS Pointers)
+ *   11. VB6     : WIN_SHELL_EXE (Windows Bridge / Shell Execution)
+ *
+ *   [THE ENVIRONMENT LAYER]
+ *   12. BATCH   : CSH_FORGE_CMD (Pelles C Compiler Trigger / Shell Script)
+ *   13. YAML    : DATALAKE_MAP (Dependency Linking / Version Mapping)
+ *   14. FORTRAN : LEGACY_ROOT (Mathematical Depth / Root Logic)
+ *   15. COBOL   : CYBORG_LOG (Transaction History / Audit Trail)
+ *
+ *   [DELIMITER_LAW]: 
+ *   Segments MUST be separated by |~| (The Forge Pipe).
+ *
+ * <SCROLL_END>
+ *******************************************************************************/

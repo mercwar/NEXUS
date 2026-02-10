@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /NEXUS/TABS/
+Allow: /Cyborg/
+Sitemap: https://mercwar.github.io
+
+# Custom directive for sitemap.avis
+User-agent: sitemap.avis
+Allow: /
+Crawl-delay: 1

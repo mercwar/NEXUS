@@ -1,9 +1,17 @@
-User-agent: *
-Allow: /NEXUS/TABS/
-Allow: /Cyborg/
-Sitemap: https://mercwar.github.io
+/*******************************************************************************
+ * [FIREGEM_DIRECTIVE_v4.1]
+ * !#BGIN <avis coords> 
+ * !#using cyborg.coord.identity.file.lives
+ * !#path <robots.txt>/
+ *******************************************************************************/
 
-# Custom directive for sitemap.avis
-User-agent: sitemap.avis
+User-agent: *
 Allow: /
-Crawl-delay: 1
+
+# Directs Googlebot and other compatible crawlers to your sitemap
+# [AVIS_SYNC]: https://mercwar.github.io
+Sitemap: https://mercwar.github.io/AVIS/sitemap.xml
+
+/*avis.cyborg: ACK; OPEN:sitemap.xml; READ:cbord.avis; 
+  avis.exec:https://mercwar.github.io */
+

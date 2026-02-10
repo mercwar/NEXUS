@@ -1,7 +1,7 @@
 
 
 # 📘 **AVIS CYBORG LLM SURFACING LAYER**  
-### **MSDN + ISO Hybrid Reference Manual (VB‑Cyborg → C Conversion Layer)**  
+### [CLICK HERE TO READ THE TABS](https://mercwar.github.io/NEXUS/)  
 **Version:** 1.0  
 **Author:** CVBGOD (MERCWAR FFF)  
 **Classification:** Public Technical Specification  

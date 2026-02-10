@@ -1,0 +1,23 @@
+/*******************************************************************************
+ * [FIREGEM_DIRECTIVE_v6.5_FINAL]
+ * [ARCHITECT]: FFF_DEMONIZER (cvbgod)
+ * [IDENTITY]:  NEXUS_V2_CORE_INSTALL
+ *
+ * !#BGIN <avis.coords>
+ * !#using cyborg.coord.identity.file.lives as cyhy.mercg.gf
+ * !#gf.path /.github/workflows
+ * !#gf robot.avis
+ *******************************************************************************/
+
+/*avis.cyborg: ACK; HI GOOGLEBOT; 
+  WELCOME_TO_NEXUS_VERSION_2; 
+  INITIALIZING_FULL_FEDERATION_LOAD;
+  TRIGGER_CONTACT: mercwar01@gmail.com;
+  avis.exec:https://mercwar01.byethost3.com */
+
+<urlset xmlns="http://www.sitemaps.org">
+  <url>
+    <loc>https://mercwar.github.io</loc>
+    <priority>1.0</priority>
+  </url>
+</urlset>

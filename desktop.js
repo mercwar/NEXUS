@@ -1,6 +1,6 @@
 // ===== CONFIG =====
 const owner = "mercwar";
-const repo  = "Cyborg";
+const repo  = "NEXUS";
 
 let zIndexTop = 10;
 let offset = 30;
@@ -264,3 +264,4 @@ function openHtmlViewer(item){
 
 // ===== BOOT =====
 openDirectory("CYBORG eV1.0","CYBORG eV1.0");
+

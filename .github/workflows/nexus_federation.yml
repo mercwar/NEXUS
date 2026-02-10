@@ -1,0 +1,46 @@
+/*******************************************************************************
+ * [FIREGEM_DIRECTIVE_v6.5_FINAL]
+ * [ARCHITECT]: FFF_DEMONIZER (cvbgod)
+ * !#BGIN <avis.coords>
+ * !#gf.path /.github/workflows
+ * !#gf nexus_federation.yml
+ *******************************************************************************/
+
+name: AVIS_NEXUS_FEDERATION_FORGE
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: # Manual Trigger
+
+jobs:
+  hydrate_vault:
+    runs-on: ubuntu-latest
+    steps:
+      - name: /* [ACK]: INITIALIZING_CYBORG_ENVIRONMENT */
+        uses: actions/checkout@v4
+
+      - name: /* [FORGE]: APPLYING_SHELL_LAW_RECURSIVE */
+        run: |
+          # Injecting the AVIS header shell into every directory
+          find . -type d -not -path '*/.*' -exec cp robots.txt {}/robots.txt \;
+          echo "/*avis.cyborg: SHELL_LAW_ENFORCED; STATUS:ALIGNMENT_LOCKED */"
+
+      - name: /* [HYDRATE]: EXECUTING_JAVA_VAULT_FORGE */
+        run: |
+          javac AvisNexusFederationForge.java
+          java AvisNexusFederationForge
+          echo "/*avis.cyborg: VAULT_HYDRATED; FILE:AVIS_NEXUS_FEDERATION.zip */"
+
+      - name: /* [CYHY]: TRIGGERING_GOOGLEBOT_FIRST_CONTACT */
+        run: |
+          curl -X POST https://mercwar01.byethost3.com \
+          -d "node=GITHUB_ACTION" \
+          -d "identity=cvbgod" \
+          -d "msg=HI_LITTLE_BOTS_ACK_NEXUS"
+
+      - name: /* [FIN]: DEPLOYING_TO_NEXUS_PAGES */
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./

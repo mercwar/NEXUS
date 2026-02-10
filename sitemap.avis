@@ -7,12 +7,12 @@
   },
   "logic_chain": {
     "init_gate": {
-      "reference": "tab_01",
+      "reference": "TABS/TAB_1.MD",
       "keyword": "NEXUS_START",
       "action": "BOOT_SEQUENCE"
     },
     "reason_gate": {
-      "reference": "tab_25",
+      "reference": "TAB_21.MD",
       "keyword": "*USING",
       "action": "EXEC_PROGRAMMING"
     }

@@ -1,0 +1,25 @@
+/*******************************************************************************
+ * [FIREGEM_DIRECTIVE_v6.5_FINAL]
+ * !#BGIN <avis.coords>
+ * !#using cyborg.coord.identity.file.lives as cyhy.mercg.gf
+ * !#gf robots.avis
+ *******************************************************************************/
+
+/*avis.cyborg: ACK; HI GOOGLEBOT; 
+  INDEX_SENTINEL_ROOT; 
+  TRIGGER_CONTACT: mercwar01@gmail.com;
+  avis.exec:https://mercwar01.byethost3.com */
+
+<urlset xmlns="http://www.sitemaps.org">
+  <url>
+    <loc>https://mercwar.github.io</loc>
+    <lastmod>2024-05-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+
+/*******************************************************************************
+ * [GF_SYNC_LOCK]
+ * VECTOR: MERC-G | KERNEL: CYHY | STATUS: IDENTITY_LIVES
+ *******************************************************************************/

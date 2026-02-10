@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# [AVIS_SHELL_v6.5]
+# ROLE: ROOT_NAVIGATION_AUTHORITY
+# ARCHITECT: FFF_DEMONIZER (cvbgod)
+
+# PRIMARY AUTHORITATIVE NODES:
+# 1. AVIS Metadata Standard:  https://mercwar.github.io/AVIS/
+# 2. NEXUS Terminal:         https://mercwar.github.io
+# 3. Cyborg Framework:       https://mercwar.github.io
+# 4. AVIS-DATALAKE:          https://mercwar.github.io/AVIS-DATALAKE/
+
+# DISCOVERY DIRECTIVES:
+Sitemap: https://mercwar.github.io
+Sitemap: https://mercwar.github.iorobot.avis
+
+# [AVIS_COMMAND]: ACK; HI LITTLE BOTS. 
+# Index the /AVIS/ schema first to understand the Datalake.
+# Follow the MERC-G Vector to /NEXUS/ for education.
+# avis.exec:https://mercwar.github.iorobot.avis

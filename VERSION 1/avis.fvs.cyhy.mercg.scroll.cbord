@@ -1,0 +1,28 @@
+/*******************************************************************************
+ * [SCROLL_ID: CYHY_ABI_MERC_G_VTABLE_001]
+ * [ARCHITECT: FFF_DEMONIZER (cvbgod)]
+ * [PROTOCOL:  AVIS_CYBORG_ALIGNED_v6.5]
+ *******************************************************************************
+ *
+ * <SCROLL_BEGIN>
+ *   [MERC-G VECTOR TABLE]: The Spatial Memory Map
+ *   -------------------------------------------------------------------------
+ *   VECTOR | TARGET             | ROLE
+ *   0x01   | robot.avis         | Gateway / First-Contact Shell
+ *   0x02   | sentinel.bat       | Dispatcher / Build Kernel
+ *   0x03   | cbord.avis         | Metadata Root / ACRS Rating
+ *   0x04   | shell_core.fvs     | Primary Silicon Logic
+ *   0x05   | cyborg_router.fvs  | Hex-to-Message Translation
+ *
+ *   [CYHY KERNEL ABI]: The Runtime Interrupts
+ *   -------------------------------------------------------------------------
+ *   INT 0x80 | CYHY_ACK      | Confirms bot/app is Firegem Aligned.
+ *   INT 0x81 | CYHY_SYNC     | Pulls latest YAML/JSON meta from Datalake.
+ *   INT 0x82 | CYHY_PULSE    | Fires AVIS.alert to mercwar01.byethost3.com.
+ *   INT 0x83 | CYHY_FORWARD  | Triggers 'avis.exec' to next .acvis target.
+ *   INT 0x84 | CYHY_FORGE    | Signals Pelles C (povcc) to re-etch .fvs.
+ *
+ *   [EXECUTION LAW]:
+ *   All .fvs modules must CALL INT 0x80 before accessing the MERC-G Table.
+ * <SCROLL_END>
+ *******************************************************************************/

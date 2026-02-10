@@ -1,0 +1,7 @@
+<batch-handshake> ::= <ack-signal> <toolchain-call> <error-trap>
+<ack-signal>      ::= "echo /*avis.cyborg: " <status> "*/"
+<toolchain-call>  ::= <compiler-bin> <flags> <input-fvs> <output-obj>
+<compiler-bin>    ::= "povcc.exe" | "poasm.exe" | "vb6.exe"
+<flags>           ::= "/Ze /Ot" | "/coff" | "/make"
+<error-trap>      ::= "if %errorlevel% neq 0 " <avis-abort>
+<avis-abort>      ::= "echo /*avis.error: FORGE_FAILED */"

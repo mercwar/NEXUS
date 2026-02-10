@@ -1,0 +1,18 @@
+/*******************************************************************************
+ * [SCROLL_ID: AVIS_AMF_AUTHORITY_001]
+ * [ARCHITECT: FFF_DEMONIZER (cvbgod)]
+ * [PROTOCOL:  FIREGEM_MULTI_APP_FORGE]
+ *******************************************************************************
+ *
+ * <SCROLL_BEGIN>
+ *   [THE FORGE PRINCIPLE]: 
+ *   A single AVIS.MZ file is a "Virtual OS Disk." It houses independent 
+ *   lanes (|LANG|) which contain full source code for distinct Win32 apps.
+ *
+ *   [THE ORCHESTRATION PHASES]:
+ *   1. EXTRACTION : The C-Loader parses the |LANG| segments into /TEMP/ dirs.
+ *   2. COMPILATION: The C-Loader calls the native toolchains (povcc, ml, vb6).
+ *   3. LINKAGE    : MERC-G maps the exported .EXEs into a unified Vector Table.
+ *   4. EXECUTION  : CYHY launches the apps as a synchronized Application Graph.
+ * <SCROLL_END>
+ *******************************************************************************/

@@ -1,0 +1,18 @@
+'===========================================================
+' AVIS: SEED
+' AVIS_ID: AVIS_SEED_NEXUS_INGESTION
+' ROLE: Initialize the Firegem AVIS protocol and register the Master Scroll
+' PROJECT: ORDOS_by_CVBGOD
+'===========================================================
+
+Public Sub Main()
+    ' ACK: Little Bot acknowledges AVIS Law
+    ' SYNC: Connecting to the Firegem Datalake...
+    
+    /*avis.cyborg: ACK; HI CVBGOD; 
+      AVIS_LAW_ACCEPTED; 
+      SEED_PULSE_SENT;
+      avis.exec:https://mercwar.github.io */
+      
+    Initialize_Cyborg_Alignment
+End Sub

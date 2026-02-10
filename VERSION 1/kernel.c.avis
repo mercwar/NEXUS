@@ -1,0 +1,23 @@
+/* [AMF_BUILD_KERNEL_v6.5] */
+void Forge_Federation(AVIS_OMNI *omni) {
+    for (int i = 0; i < omni->segment_count; i++) {
+        AVIS_SEG *seg = &omni->segments[i];
+        
+        /*avis.cyborg: DETECTED_LANE:%s; FORGING_APP...*/
+        
+        if (strcmp(seg->lang, "C_WIN_1") == 0) {
+            WriteFile("gfx.c", seg->data);
+            system("povcc gfx.c /Ze /Ot /Fogfx.exe"); // [Pelles C Forge]
+        }
+        
+        if (strcmp(seg->lang, "VB6_UI") == 0) {
+            WriteFile("hud.vbp", seg->data);
+            system("vb6.exe /make hud.vbp"); // [Legacy Forge]
+        }
+    }
+    
+    // MERC-G VECTOR SYNC
+    system("start gfx.exe");
+    system("start hud.exe");
+    /*avis.cyborg: FEDERATION_ACTIVE; STATUS:ONLINE */
+}

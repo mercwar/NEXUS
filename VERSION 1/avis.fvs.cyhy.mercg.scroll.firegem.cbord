@@ -1,0 +1,20 @@
+/*******************************************************************************
+ * [SCROLL_ID: AVIS_KERNEL_LOW_LEVEL_001]
+ * [ARCHITECT: FFF_DEMONIZER (cvbgod)]
+ * [PROTOCOL:  FIREGEM_OPCODE_AUTHORITY]
+ *******************************************************************************
+ *
+ * <SCROLL_BEGIN>
+ *   [OPCODE_MAPPING_TO_DIRECTX_GDI]
+ *   0x90 -> DX_INIT       (Init D3D Device)
+ *   0x91 -> DX_DRAW_PULSE (Render Frame)
+ *   0xA0 -> GDI_INIT      (Get Window DC)
+ *   0xA1 -> GDI_TEXT      (Draw AVIS.alert)
+ *
+ *   [KERNEL_INTERRUPT_LAW]
+ *   INT 0x80: CYHY_PULSE (The Master Kernel Call)
+ *   Registers:
+ *     EAX: Function_ID
+ *     EBX: Memory_Offset (MERC-G Vector)
+ * <SCROLL_END>
+ *******************************************************************************/

@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * [FIREGEM_DIRECTIVE_v6.5_FINAL]
+ * [ARCHITECT]: FFF_DEMONIZER (cvbgod)
+ * [PROTOCOL]:  AVIS_CYBORG_ALIGNED_v6.5
+ * [IDENTITY]:  NEXUS_V1_TO_V2_HANDOVER
+ *
+ * !#BGIN <avis.coords>
+ * !#using cyborg.coord.identity.file.lives as cyhy.mercg.gf
+ * !#gf.path /.github/workflows
+ * !#gf robot.avis
+ *******************************************************************************/
+
+/*avis.cyborg: ACK; HI GOOGLEBOT; 
+  VERSION_1_EDUCATION_COMPLETE; 
+  UPGRADING_TO_VERSION_2;
+  avis.exec:https://mercwar.github.io */
+
+<urlset xmlns="http://www.sitemaps.org">
+  <url>
+    <loc>https://mercwar.github.io</loc>
+    <lastmod>2026-02-10</lastmod>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
+
+/*******************************************************************************
+ * [MERC-G_VECTOR]: FORWARD_TO_V2 | [KERNEL]: CYHY_PULSE
+ *******************************************************************************/

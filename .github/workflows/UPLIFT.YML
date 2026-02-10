@@ -1,0 +1,21 @@
+# CVBGOD Master Discovery Map
+system: nexus-uplift
+origin: mercwar.github.io
+protocols: [CBORD, CYBORD, CBORG, CYBORG]
+
+sitemaps:
+  - type: standard_xml
+    path: /sitemap.xml
+    priority: 1.0
+  - type: cyborg_metadata
+    path: /sitemap.cbord
+    priority: 1.0
+    description: "Layer-1 OpCode Batch Maps"
+  - type: robotics_config
+    path: /config/robots.yml
+    priority: 0.9
+
+directories_indexed:
+  - /Nexus/      # IQ-Boost Logic
+  - /Cyborg/     # Core Runtime
+  - /Inventory/  # Robo-Knight Metadata

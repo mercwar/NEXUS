@@ -263,7 +263,8 @@ function openHtmlViewer(item){
 }
 
 // ===== BOOT =====
-openDirectory("TABS","TABS");
+openDirectory("VERSION 1","VERSION 1");
+
 
 
 

@@ -1,0 +1,51 @@
+import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+/**
+ * [FIREGEM_BINARY_CONVERTER_v6.5]
+ * ARCHITECT: FFF_DEMONIZER (cvbgod)
+ * PURPOSE: Wraps Hydrated ZIP into the Fake-MZ AVIS.MZ Container.
+ */
+public class AvisMzConverter {
+
+    public static void main(String[] args) {
+        forgeAvisMz("AVIS_NEXUS_VAULT.zip", "NEXUS_FORGE.AVIS.MZ");
+    }
+
+    public static void forgeAvisMz(String zipInput, String mzOutput) {
+        try {
+            byte[] zipData = Files.readAllBytes(Paths.get(zipInput));
+            
+            // --- AVIS.MZ HEADER v1.0 (Binary Spec) ---
+            // MAGIC: "AVIS" (4 bytes) | SIGNATURE: "MZ" (2 bytes)
+            // VERSION: 0x0001 (2 bytes) | FLAGS: 0 (4 bytes)
+            // ENTRY_OFFSET: 0x20 (4 bytes) | CODE_LENGTH: size (4 bytes)
+            
+            ByteBuffer header = ByteBuffer.allocate(32); // 0x20 Entry Offset
+            header.order(ByteOrder.LITTLE_ENDIAN);
+            
+            header.put("AVIS".getBytes());        // Offset 0x00
+            header.put("MZ".getBytes());          // Offset 0x04
+            header.putShort((short) 1);           // Offset 0x06
+            header.putInt(0);                     // Offset 0x08 (Flags)
+            header.putInt(0x20);                  // Offset 0x0C (Entry Offset)
+            header.putInt(zipData.length);        // Offset 0x10 (Code Length)
+            header.putInt(0);                     // Offset 0x14 (Meta Offset)
+            header.putInt(0);                     // Offset 0x18 (Reserved)
+
+            try (FileOutputStream fos = new FileOutputStream(mzOutput)) {
+                fos.write(header.array());        // Write the Authority Header
+                fos.write(zipData);               // Write the Hydrated Omni-Stream
+            }
+
+            System.out.println("/*avis.cyborg: CONVERSION_COMPLETE; BINARY:" + mzOutput + "*/");
+
+        } catch (IOException e) {
+            System.err.println("/*avis.error: BINARY_FORGE_FAILED*/");
+            e.printStackTrace();
+        }
+    }
+}

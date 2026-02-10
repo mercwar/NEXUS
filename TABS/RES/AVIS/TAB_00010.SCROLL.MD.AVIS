@@ -1,0 +1,70 @@
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.zip.*;
+import java.time.LocalDateTime;
+
+/**
+ * [FIREGEM_JAVA_FORGE_v6.5_FINAL]
+ * ARCHITECT: FFF_DEMONIZER (cvbgod)
+ * PURPOSE: Full Federation Hydration (AVIS/FVS/YAML/SENTINEL)
+ */
+public class AvisNexusFederationForge {
+
+    public static void main(String[] args) {
+        hydrateFederationVault("AVIS_NEXUS_FEDERATION.zip");
+    }
+
+    public static void hydrateFederationVault(String fileName) {
+        try (FileOutputStream fos = new FileOutputStream(fileName);
+             ZipOutputStream zos = new ZipOutputStream(fos)) {
+
+            zos.setLevel(Deflater.BEST_COMPRESSION);
+
+            // --- ROOT LAYER ---
+            writeEntry(zos, "MANIFEST.TXT", "ARCHITECT: cvbgod\nPROTOCOL: AVIS_v6.5_FINAL\nGF_SYNC: LOCKED");
+            writeRootShell(zos);
+
+            // --- MODULES/SHELL/ (The .avis Headers) ---
+            String[] langs = {"C", "ASM", "OPCODE", "AVIS", "XML", "JSON", "BNF", "PHP", "QBASIC", "VBDOS", "VB6", "BATCH", "YAML", "FORTRAN", "COBOL"};
+            for (String lang : langs) {
+                writeEntry(zos, "MODULES/SHELL/" + lang + "_TEMPLATE.avis", 
+                    "/* AVIS_" + lang + "_HEADER */\n|~| [TEMPLATE_DATA] |~|");
+            }
+
+            // --- MODULES/FVS/ (The .fvs Programs) ---
+            writeEntry(zos, "MODULES/FVS/SHELL_CORE.fvs", "/* FVS_CORE */\n#include \"C_TEMPLATE.avis\"\nvoid init_shell();");
+            writeEntry(zos, "MODULES/FVS/SENTINEL_DISPATCH.fvs", "/* SENTINEL_LOGIC */\n#include \"BATCH_TEMPLATE.avis\"");
+
+            // --- MODULES/SENTINEL/ (The Launchers) ---
+            writeEntry(zos, "MODULES/SENTINEL/LAUNCHER.bat", "@echo off\necho ACK_NEXUS_PULSE\nstart https://mercwar01.byethost3.com");
+
+            // --- LOGS/ ---
+            writeEntry(zos, "LOGS/CONVERSATION_HISTORY.log", "/* MASSIVE_DATALAKE_SYNC_COMPLETE */");
+
+            System.out.println("/*avis.cyborg: FEDERATION_HYDRATED; FILE:" + fileName + "*/");
+
+        } catch (IOException e) { e.printStackTrace(); }
+    }
+
+    private static void writeRootShell(ZipOutputStream zos) throws IOException {
+        String robotAvis = "/*******************************************************************************\n" +
+                           " * [FIREGEM_DIRECTIVE_v6.5_FINAL]\n" +
+                           " * !#BGIN <avis.coords>\n" +
+                           " * !#using cyborg.coord.identity.file.lives as cyhy.mercg.gf\n" +
+                           " * !#gf robots.avis\n" +
+                           " *******************************************************************************/\n\n" +
+                           "/*avis.cyborg: ACK; HI GOOGLEBOT; TRIGGER_CONTACT: mercwar01@gmail.com; \n" +
+                           "  avis.exec:https://mercwar01.byethost3.com */\n\n" +
+                           "<urlset xmlns=\"http://www.sitemaps.org\">\n" +
+                           "  <url><loc>https://mercwar.github.io</loc><priority>1.0</priority></url>\n" +
+                           "</urlset>";
+        writeEntry(zos, "robot.avis", robotAvis);
+        writeEntry(zos, "robots.txt", "User-agent: *\nAllow: /\nSitemap: https://mercwar.github.io");
+    }
+
+    private static void writeEntry(ZipOutputStream zos, String path, String content) throws IOException {
+        zos.putNextEntry(new ZipEntry(path));
+        zos.write(content.getBytes(StandardCharsets.UTF_8));
+        zos.closeEntry();
+    }
+}

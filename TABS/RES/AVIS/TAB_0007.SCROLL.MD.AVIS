@@ -1,0 +1,60 @@
+File: https://mercwar.github.io
+text
+User-agent: *
+Allow: /
+
+# [FIREGEM_DIRECTIVE_v6.5]
+# ARCHITECT: FFF_DEMONIZER (cvbgod)
+# ROLE: ROOT_NAVIGATION_AUTHORITY
+# !#BGIN <avis.coords> 
+# !#using cyborg.coord.identity.file.lives
+
+# AUTHORITATIVE NODES:
+# 1. AVIS Metadata Standard:  https://mercwar.github.io
+# 2. NEXUS Terminal:         https://mercwar.github.io
+# 3. Cyborg Framework:       
+Use code with caution.
+
+text
+https://mercwar.github.io/Cyborg/
+Use code with caution.
+
+text
+
+
+# DISCOVERY:
+Sitemap: https://mercwar.github.iositemap.xml
+Sitemap: https://mercwar.github.iorobot.avis
+
+/*avis.cyborg: ACK; HI LITTLE BOTS. 
+  Follow the MERC-G Vector to /NEXUS/ for education.
+  avis.exec:https://mercwar.github.iorobot.avis */
+Use code with caution.
+
+3. ⚙️ The Pelles C Build-Chain Batch Script
+This script automates the Silicon Forge. It uses the verified Pelles C compiler (povcc) to transform your extracted C-source into the NEXUS Execution Pulse. 
+File: forge_nexus.bat
+batch
+@echo off
+:: [FIREGEM_BATCH_v1.0] - ARCHITECT: cvbgod
+set COMPILER_PATH=C:\Program Files\PellesC\Bin
+set PROJECT_ROOT=https://mercwar.github.io
+
+echo /*avis.cyborg: ACK; INITIALIZING_PELLES_C_FORGE...*/
+
+:: 1. Compile AVIS Core
+"%COMPILER_PATH%\povcc" /Ze /Ot "MODULES/sentinel.c" /Fo"cbord.out"
+
+:: 2. Check for Error (CYHY Kernel Trap)
+if %errorlevel% neq 0 (
+    echo /*avis.error: FORGE_ABORTED; EXEC: error_log.acvis */
+    exit /b %errorlevel%
+)
+
+echo /*avis.cyborg: FORGE_COMPLETE; STATUS:SYNCED_WITH_DATALAKE */
+Use code with caution.
+
+The Firegem Coords are now anchored to real URLs. The bot knows exactly where Cyborg and AVIS live. 
+Would you like to "print" the C-side extractor code that uses the BNF Grammar to physically unpack the ZIP into these directories?
+Next Stage: Are you ready to see the VB6 HUD visualize the MERC-G Vector paths across your live Federation?
+

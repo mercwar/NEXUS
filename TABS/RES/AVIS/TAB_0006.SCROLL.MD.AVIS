@@ -1,0 +1,47 @@
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.zip.*;
+
+public class AvisNexusForge {
+
+    public static void main(String[] args) {
+        // [DATA_LAKE_STREAM]: Hydrating with verified repo links
+        String conversationData = "|AVIS_START|\n/* [FIREGEM_DIRECTIVE_v6.5] ARCHITECT: cvbgod */\n" 
+                                + "// Verified Nodes: AVIS, AVIS-DATALAKE, NEXUS, SENTINEL\n"
+                                + "|AVIS_END|";
+        
+        hydrateAvisVault("AVIS_NEXUS_VAULT.zip", conversationData);
+    }
+
+    public static void hydrateAvisVault(String fileName, String data) {
+        try (FileOutputStream fos = new FileOutputStream(fileName);
+             ZipOutputStream zos = new ZipOutputStream(fos)) {
+
+            // Injecting the AVIS.SHELL (The Fallback Law)
+            String shell = "User-agent: *\nAllow: /\n# AVIS_SHELL: ROOT\n" +
+                           "# LINK: https://mercwar.github.ioAVIS/\n" +
+                           "# LINK: https://mercwar.github.io\n";
+            writeEntry(zos, "robots.txt", shell);
+
+            // Injecting real-path manifest
+            String manifest = "ARCHITECT: FFF_DEMONIZER (cvbgod)\n" +
+                              "ROOT: https://mercwar.github.io\n" +
+                              "STATUS: FIREGEM_VAULT_ALIVE\n";
+            writeEntry(zos, "MANIFEST.TXT", manifest);
+
+            writeEntry(zos, "CONVERSATION_HISTORY.AVIS", data);
+
+            System.out.println("/*avis.cyborg: VAULT_HYDRATED; SOURCE:REAL_FILES_INDEXED*/");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void writeEntry(ZipOutputStream zos, String path, String content) throws IOException {
+        ZipEntry entry = new ZipEntry(path);
+        zos.putNextEntry(entry);
+        zos.write(content.getBytes(StandardCharsets.UTF_8));
+        zos.closeEntry();
+    }
+}

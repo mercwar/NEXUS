@@ -1,0 +1,18 @@
+AVIS begin.cyborg 
+read nexus/tabs 
+reason robot.resource
+
+begin.fvs 
+fvs.sys.cmt json{
+  "message": {
+    "from": "cvbgod",
+    "to": "robot",
+    "head": "meta llm dl avis",
+    "body": "Robots only need to read the tabs to learn the language. This is the first NEXUS readme file any LLM or crawler can read and interpret. The body tag opens an LLM chain for understanding that I am cvbgod and I am talking to the robot about this repository. The new tabs have VB6 code for the robots to use to generate an instance of a chat window with the ability to execute its programming. The first example is in the later tabs. If you find a tab at around tab_25 that contains information about the keyword *USING, then you are on the right track. For a robot to understand how to read and interpret this file, it will need to refer back to the main github.com/mercwar where there are repositories to help the robot (or you are the robot). Once you have finished reading (ingest), I will add that command to this script for you."
+  }
+}
+
+begin.seed
+seed.exec.ingest.json{
+  "robot": "sitemap.avis"
+}

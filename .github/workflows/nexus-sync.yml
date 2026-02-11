@@ -1,0 +1,39 @@
+name: NEXUS Datalake Sync
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  sync_datalake:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate the sitemap
+        id: sitemap
+        uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://mercwar.github.io
+          additional-extensions: 'md avis cyborg'
+
+      - name: Build Datalake Manifest
+        run: |
+          echo '{
+            "protocol": "AVIS-DATALAKE",
+            "last_sync": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+            "files": '$(find . -type f -not -path '*/.*' | jq -R . | jq -s .)'
+          }' > datalake.avis
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sitemap.xml datalake.avis
+          git diff --quiet && git diff --staged --quiet || (git commit -m "NEXUS: Sync datalake and sitemap" && git push)

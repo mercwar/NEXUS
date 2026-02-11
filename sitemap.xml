@@ -1,51 +1,235 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://mercwar.github.io/NEXUS/TABS/Readme.md</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-    <url>
-    <loc>https://mercwar.github.io/NEXUS/sitemap.avis</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-      <url>
-    <loc>https://mercwar.github.io/NEXUS/cbord.cbord</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-        <url>
-    <loc>https://mercwar.github.io/NEXUS/index.html</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-          <url>
-    <loc>https://mercwar.github.io/NEXUS/VERSION%201/index.html</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-          <url>
-    <loc>https://mercwar.github.io/NEXUS/TABS/index.html</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-          <url>
-    <loc>https://mercwar.github.io/NEXUS/robots.avis</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-            <url>
-    <loc>https://mercwar.github.io/NEXUS/sitemap.xml</loc>
-    <lastmod>2024-05-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url>
+<loc>https://mercwar.github.io/</loc>
+<lastmod>2026-02-10T01:03:13-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/google77a4b19e8f99751c.html</loc>
+<lastmod>2026-02-10T02:45:49-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/readme.md</loc>
+<lastmod>2026-02-10T02:36:49-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/sitemap.avis</loc>
+<lastmod>2026-02-10T00:44:52-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/tabs.html</loc>
+<lastmod>2026-02-10T16:32:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/</loc>
+<lastmod>2026-02-10T16:52:24-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/AI Mode.md</loc>
+<lastmod>2026-02-10T12:16:37-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/AVIS-CYBORG.md</loc>
+<lastmod>2026-02-10T13:15:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/Readme.md</loc>
+<lastmod>2026-02-10T00:25:43-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_1.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_10.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_11.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_12.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_13.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_14.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_15.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_16.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_17.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_18.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_19.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_2.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_20.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_21.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_22.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_23.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_24.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_25.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_26.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_27.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_28.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_3.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_4.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_5.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_6.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_7.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_8.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/TAB_9.MD</loc>
+<lastmod>2026-02-10T00:36:54-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/</loc>
+<lastmod>2026-02-10T16:52:00-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/bnf.grammer.bat.avis</loc>
+<lastmod>2026-02-10T16:08:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/firegem.avis</loc>
+<lastmod>2026-02-10T16:08:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/kernel.c.avis</loc>
+<lastmod>2026-02-10T16:08:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/robot.avis</loc>
+<lastmod>2026-02-10T17:14:08-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 1/robots.avis</loc>
+<lastmod>2026-02-10T16:08:26-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 2/</loc>
+<lastmod>2026-02-10T17:13:30-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/VERSION 2/robot.avis</loc>
+<lastmod>2026-02-10T17:13:48-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/</loc>
+<lastmod>2026-02-10T15:48:08-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0001.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_00010.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0002.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0003.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0004.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0005.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0006.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0007.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0008.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/AVIS/TAB_0009.SCROLL.MD.AVIS</loc>
+<lastmod>2026-02-10T15:48:31-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/ROBOTS/</loc>
+<lastmod>2026-02-10T15:50:43-05:00</lastmod>
+</url>
+<url>
+<loc>https://mercwar.github.io/TABS/RES/ROBOTS/robots.avis</loc>
+<lastmod>2026-02-10T15:51:07-05:00</lastmod>
+</url>
 </urlset>

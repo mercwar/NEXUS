@@ -1,0 +1,4 @@
+# NEXUS.LEARN.SYMBOLS
+TEACH = "How to read exported symbols"
+FORMAT = "symbol_name : return_type (args...)"
+NEXT = "NEXUS.LEARN.ABI"

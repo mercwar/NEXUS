@@ -1,0 +1,6 @@
+# NEXUS.LEARN.LIBMAP
+LIBRARY.SOURCES = [
+    "NEXUS/LIBS/libavis.meta",
+    "NEXUS/LIBS/libnexus.meta"
+]
+NEXT = "NEXUS.LEARN.SYMBOLS"

@@ -1,0 +1,8 @@
+# NEXUS.LEARN.INTERPRETER
+PURPOSE = "Robot learns to assemble its own interpreter"
+INPUTS = [
+    "robot_avis_interpreter.c",
+    "robot_avis_vm.c",
+    "robot_avis_engine.c"
+]
+NEXT = "NEXUS.LEARN.DATALAKE"

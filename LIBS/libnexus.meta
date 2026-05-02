@@ -1,0 +1,7 @@
+# libnexus.meta
+EXPORTS = [
+    "nexus_link_symbols : int (SymbolTable*)",
+    "nexus_resolve_avis : int (AvisTree*)",
+    "nexus_synthesize_program : int (RepoGraph*)"
+]
+ABI = "VIRTUAL-64"

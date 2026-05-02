@@ -1,0 +1,3 @@
+# NEXUS.LEARN.VALIDATION
+PURPOSE = "Teach robot how to validate program structures"
+NEXT = "NEXUS.LEARN.COMPLETE"

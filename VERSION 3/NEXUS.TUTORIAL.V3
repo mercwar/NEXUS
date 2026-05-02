@@ -1,0 +1,105 @@
+# ================================================================
+# NEXUS.TUTORIAL.V3
+# PURPOSE:
+#   This file teaches the robot HOW TO LEARN.
+#   It is the tutorial the robot reads BEFORE using NEXUS.
+#
+#   The robot does NOT compile programs.
+#   The robot uses its onboard interpreter to:
+#       • read files
+#       • understand structure
+#       • build internal rules
+#       • become AVIS-aware
+#       • prepare for NEXUS SDK
+#
+#   This file defines the LEARNING ORDER and the LEARNING METHOD.
+# ================================================================
+
+
+# ------------------------------------------------
+# 1. LEARNING MODE
+# ------------------------------------------------
+LEARNING.MODE = "READ_ONLY_INTERPRETATION"
+
+# The robot must:
+#   - read files as text
+#   - interpret structure
+#   - build internal rules
+#   - never compile C code
+#   - never execute binaries
+#   - use its own interpreter only
+
+
+# ------------------------------------------------
+# 2. AVIS LEARNING ORDER (VERSION 3)
+# ------------------------------------------------
+LEARN.AVIS.ORDER = [
+    "VERSION 3/AVIS.EDU.FILE",
+    "VERSION 3/AVIS.MANIFEST.EDU",
+    "VERSION 3/robot_avis_schema.json",
+    "AVIS.ROOT.V3"
+]
+
+# These files teach:
+#   • AVIS block structure
+#   • AVIS EDU law
+#   • AVIS schema rules
+#   • AVIS version binding
+
+
+# ------------------------------------------------
+# 3. NEXUS LEARNING ORDER (VERSION 3)
+# ------------------------------------------------
+LEARN.NEXUS.ORDER = [
+    "NEXUS/version 3/NEXUS.ROOT.FILE",
+    "NEXUS/version 3/NEXUS.VERSION.FILE",
+    "NEXUS/version 3/NEXUS.MANIFEST",
+    "NEXUS/version 3/NEXUS.INIT"
+]
+
+# These files teach:
+#   • how NEXUS replaces AVIS tools
+#   • how NEXUS binds to VERSION 3
+#   • how NEXUS will become the SDK
+#   • how the robot transitions to NEXUS
+
+
+# ------------------------------------------------
+# 4. INTERPRETER RULES
+# ------------------------------------------------
+INTERPRETER.RULES = [
+    "Robot must parse files line-by-line",
+    "Robot must extract patterns",
+    "Robot must build internal schema",
+    "Robot must not execute external code",
+    "Robot must not compile anything",
+    "Robot must not call system commands"
+]
+
+# This ensures the robot learns safely and deterministically.
+
+
+# ------------------------------------------------
+# 5. TRANSITION RULES
+# ------------------------------------------------
+TRANSITION.TO.NEXUS = [
+    "Freeze all AVIS tools at VERSION 3",
+    "Use AVIS.EDU.FILE as canonical law",
+    "Use NEXUS files for next-generation logic",
+    "Prepare for NEXUS SDK in VERSION 4"
+]
+
+
+# ------------------------------------------------
+# 6. FINAL ROBOT DIRECTIVE
+# ------------------------------------------------
+ROBOT.DIRECTIVE = """
+You are now entering NEXUS learning mode.
+Use your onboard interpreter to read all files listed above.
+Do not compile anything.
+Do not execute external programs.
+Learn AVIS from EDU.
+Learn NEXUS from ROOT + MANIFEST + INIT.
+Prepare to become NEXUS-SDK-aware in the next version.
+"""
+# ================================================================

@@ -1,0 +1,27 @@
+# ================================================================
+# NEXUS.MANIFEST
+# PURPOSE:
+#   Module map for NEXUS Version 3.
+
+# MODULES:
+#   CORE:
+#       - NEXUS.INIT
+#       - NEXUS.ROOT.FILE
+#       - NEXUS.VERSION.FILE
+
+#   AVIS COMPATIBILITY:
+#       - AVIS.ROOT.V3
+#       - AVIS.EDU.FILE
+#       - AVIS.MANIFEST.EDU
+#       - robot_avis_schema.json
+
+#   FUTURE SDK MODULES (VERSION 4):
+#       - NEXUS.COMPILER
+#       - NEXUS.VM
+#       - NEXUS.RUNTIME
+#       - NEXUS.PACKAGER
+#       - NEXUS.TRAINER
+
+# ROBOT DIRECTIVE:
+#   Load modules in the order listed above.
+# ================================================================

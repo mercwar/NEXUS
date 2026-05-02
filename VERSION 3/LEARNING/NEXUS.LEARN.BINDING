@@ -1,0 +1,3 @@
+# NEXUS.LEARN.BINDING
+PURPOSE = "Teach robot how to bind AVIS constructs to NEXUS symbols"
+NEXT = "NEXUS.LEARN.INTERPRETER"

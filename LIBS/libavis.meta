@@ -1,0 +1,7 @@
+# libavis.meta
+EXPORTS = [
+    "avis_parse_line : int (char*)",
+    "avis_build_window : void (WindowStruct*)",
+    "avis_validate : int (AvisTree*)"
+]
+ABI = "VIRTUAL-64"

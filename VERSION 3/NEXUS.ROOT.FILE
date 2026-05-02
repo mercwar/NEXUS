@@ -1,0 +1,30 @@
+# ================================================================
+# NEXUS.ROOT.FILE
+# PURPOSE:
+#   EDU-style root file for NEXUS Version 3.
+#   This file defines the canonical entrypoint for all NEXUS
+#   operations when interacting with AVIS Version 3.
+
+# ACTIVE VERSION:
+#   NEXUS / VERSION 3
+
+# VERSION DIRECTORY:
+#   ./NEXUS/version 3/
+
+# REQUIRED COMPONENTS:
+#   NEXUS.VERSION.FILE
+#   NEXUS.MANIFEST
+#   NEXUS.INIT
+#   AVIS.ROOT.V3
+#   AVIS.EDU.FILE (from VERSION 3)
+
+# ROBOT DIRECTIVE:
+#   1. Load NEXUS.VERSION.FILE
+#   2. Load NEXUS.MANIFEST
+#   3. Execute NEXUS.INIT
+#   4. Use AVIS.ROOT.V3 as the compatibility layer
+#   5. Treat all AVIS Version 3 files as canonical input
+
+# NOTE:
+#   This file is the top-level EDU anchor for NEXUS.
+# ================================================================

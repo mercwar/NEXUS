@@ -1,0 +1,23 @@
+# ================================================================
+# NEXUS.INIT
+# PURPOSE:
+#   Initialization script for NEXUS Version 3.
+
+# INIT STEPS:
+#   1. Load NEXUS.VERSION.FILE
+#   2. Load NEXUS.MANIFEST
+#   3. Load AVIS.ROOT.V3
+#   4. Load AVIS.EDU.FILE
+#   5. Load robot_avis_schema.json
+#   6. Prepare environment for NEXUS SDK (Version 4)
+
+# ROBOT DIRECTIVE:
+#   After initialization:
+#       - Do NOT use legacy AVIS compilers
+#       - Do NOT use legacy AVIS engines
+#       - Do NOT use legacy AVIS VMs
+#       - Defer all compilation logic to NEXUS SDK (when available)
+
+# NOTE:
+#   This file completes the AVIS → NEXUS transition.
+# ================================================================

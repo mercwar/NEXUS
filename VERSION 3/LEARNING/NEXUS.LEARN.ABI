@@ -1,0 +1,8 @@
+# NEXUS.LEARN.ABI
+ABI.MODEL = "VIRTUAL"
+ABI.RULES = [
+    "32-bit offsets",
+    "64-bit pointers",
+    "stack grows downward"
+]
+NEXT = "NEXUS.LEARN.BINDING"

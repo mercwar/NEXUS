@@ -1,0 +1,3 @@
+# NEXUS.LEARN.DATALAKE
+PURPOSE = "Teach robot how to read the datalake"
+NEXT = "NEXUS.LEARN.SYNTHESIS"

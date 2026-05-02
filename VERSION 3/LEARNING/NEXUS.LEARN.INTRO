@@ -1,0 +1,4 @@
+# NEXUS.LEARN.INTRO
+MODE = "READ_ONLY"
+PURPOSE = "Teach robot how to interpret compiled libraries"
+NEXT = "NEXUS.LEARN.LIBMAP"

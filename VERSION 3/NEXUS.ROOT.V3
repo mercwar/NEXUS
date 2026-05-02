@@ -1,0 +1,39 @@
+# ================================================================
+# NEXUS.ROOT.V3
+# PURPOSE:
+#   Root dispatcher for NEXUS when operating on AVIS VERSION 3.
+#   This file tells the robot:
+#       • VERSION 3 is the active AVIS law
+#       • NEXUS must load VERSION 3 resources
+#       • All compilation logic is deferred to the NEXUS SDK
+
+# ACTIVE AVIS VERSION:
+#   VERSION 3
+
+# AVIS VERSION PATH:
+#   ./VERSION 3/
+
+# REQUIRED FILES:
+#   ./VERSION 3/AVIS.EDU.FILE
+#   ./VERSION 3/AVIS.MANIFEST.EDU
+#   ./VERSION 3/robot_avis_schema.json
+
+# NEXUS DIRECTIVE:
+#   1. Load AVIS.EDU.FILE as the canonical structural law.
+#   2. Load AVIS.MANIFEST.EDU for robot learning order.
+#   3. Load robot_avis_schema.json for machine schema rules.
+#   4. Ignore all legacy AVIS compilers, engines, and VMs.
+#   5. Use NEXUS SDK modules for:
+#        - Compilation
+#        - Execution
+#        - Packaging
+#        - Schema enforcement
+#        - AI training
+
+# TRANSITION NOTE:
+#   This file marks the beginning of the NEXUS era.
+#   AVIS tools are frozen at VERSION 3.
+#   NEXUS will supersede all AVIS robot tools in VERSION 4.
+
+# END OF ROOT FILE
+# ================================================================

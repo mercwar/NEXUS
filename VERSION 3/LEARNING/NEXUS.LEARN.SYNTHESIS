@@ -1,0 +1,3 @@
+# NEXUS.LEARN.SYNTHESIS
+PURPOSE = "Teach robot how repos become programs"
+NEXT = "NEXUS.LEARN.VALIDATION"

@@ -1,23 +1,36 @@
 #!/bin/bash
-# [AVIS_SITEMAP_GENERATOR]
-# Run this in your GitHub Action to update the Gateway
+# IDENTITY: VERSION 3.8 // FIRE-SITE // CVBGOD
+# ROLE: Dynamic Sitemap Generation with URL Encoding for Version 1 Spaces.
 
-GATEWAY_URL="https://your-cyborg-gateway.com"
-OUTPUT="sitemap.xml"
+# 1. Get the base GitHub URL from your git config
+REPO_URL=$(git config --get remote.origin.url | sed 's/\.git$//' | sed 's/git@github.com:/https:\/\/github.com\//')
+BRANCH="main"
+BASE_URL="${REPO_URL}/blob/${BRANCH}"
 
-echo "/* Building AVIS Sitemap Pathing */"
+OUTPUT_FILE="sitemap.xml"
 
-# Generate XML
-echo '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org">' > $OUTPUT
-echo "  <url><loc>https://mercwar.github.io</loc></url>" >> $OUTPUT
+echo "Generating sitemap for: ${BASE_URL}"
 
-# Scrape the PHP Gateway to ensure it's alive and cached
-STATUS=$(curl -o /dev/null -s -w "%{http_code}" $GATEWAY_URL)
+# 2. Start the XML structure
+echo '<?xml version="1.0" encoding="UTF-8"?>' > $OUTPUT_FILE
+echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> $OUTPUT_FILE
 
-if [ $STATUS -eq 200 ]; then
-    echo "/* GATEWAY_SYNC_SUCCESS: $STATUS */"
-else
-    echo "/* GATEWAY_SYNC_ERROR: $STATUS */"
-fi
+# 3. Find all files (including dots)
+# -type f: only files | -not -path '*/.git/*': skip git database
+find . -type f -not -path '*/.git/*' | while read -r file; do
+    # Remove the leading './'
+    CLEAN_PATH="${file#./}"
+    
+    # URL encode spaces (important for 'Version 1' folders)
+    ENCODED_PATH=$(echo "$CLEAN_PATH" | sed 's/ /%20/g')
+    
+    # Write the URL entry
+    echo "  <url>" >> $OUTPUT_FILE
+    echo "    <loc>${BASE_URL}/${ENCODED_PATH}</loc>" >> $OUTPUT_FILE
+    echo "  </url>" >> $OUTPUT_FILE
+done
 
-echo "</urlset>" >> $OUTPUT
+# 4. Close the tag
+echo '</urlset>' >> $OUTPUT_FILE
+
+echo "Done! Full sitemap saved to $OUTPUT_FILE"

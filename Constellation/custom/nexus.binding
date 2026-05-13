@@ -1,0 +1,27 @@
+/* FILE: nexus.binding */
+/* PATH: /Nexus/Constellation/custom/nexus.binding */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: NEXUS_KNOWLEDGE_BINDING
+   PURPOSE: Defines how NEXUS binds repo data into intelligence
+            layers inside AVIS-Datalake.
+   AUTHOR: Demon
+   NOTES: Mirrors the Nexus Knowledge Binding Diagram.
+   ------------------------------------------------------------ */
+
+[BINDING]
+REPO_ATOMS = TRUE
+SEMANTIC_LINKS = TRUE
+SYMBOL_ALIGNMENT = TRUE
+ABI_ALIGNMENT = TRUE
+CROSS_LANGUAGE_BRIDGES = TRUE
+LEARNING_FILE_PRIORITY = HIGH
+
+[LAYERS]
+L1 = RAW_REPO_ATOMS
+L2 = SEMANTIC_LINKS
+L3 = PATTERN_REINFORCEMENT
+L4 = SYMBOL_MAPS
+L5 = ABI_ALIGNMENT
+L6 = INTELLIGENCE_MODEL

@@ -1,0 +1,16 @@
+/* FILE: nexus.identity */
+/* PATH: /Nexus/Constellation/custom/nexus.identity */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: NEXUS_IDENTITY
+   PURPOSE: Defines NEXUS identity inside AVIS ecosystem.
+   AUTHOR: Demon
+   ------------------------------------------------------------ */
+
+[IDENTITY]
+NAME = NEXUS
+ROLE = AVIS_SDK_ROOT
+GENERATION = 3
+FAMILY = AVIS_CORE
+LAW = NEXUS.ROOT.V3

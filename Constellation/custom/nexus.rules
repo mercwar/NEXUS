@@ -1,0 +1,23 @@
+/* FILE: nexus.rules */
+/* PATH: /Nexus/Constellation/custom/nexus.rules */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: NEXUS_RULESET
+   PURPOSE: NEXUS-specific Constellation override rules.
+   AUTHOR: Demon
+   NOTES: NEXUS is the AVIS SDK root; rules reflect that.
+   ------------------------------------------------------------ */
+
+[RULES]
+ENFORCE_SCHEMA = TRUE
+ENFORCE_LAW_DRIVEN_ROOT = TRUE
+ALLOW_FUTURE_MODULES = TRUE
+SCAN_MODE = ULTRA_DEEP
+REDUCE_MODE = CONSERVATIVE
+VALIDATION_LEVEL = ABSOLUTE
+
+[BEHAVIOR]
+PRIORITIZE_LEARNING_FILES = TRUE
+PRIORITIZE_SYMBOL_MAPS = TRUE
+PRIORITIZE_ABI = TRUE

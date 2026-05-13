@@ -1,0 +1,30 @@
+/* FILE: nexus.graph */
+/* PATH: /Nexus/Constellation/custom/nexus.graph */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: NEXUS_GRAPH_MAP
+   PURPOSE: Defines NEXUS semantic graph for Constellation robots.
+   AUTHOR: Demon
+   NOTES: This graph reflects NEXUS V3 law-driven architecture.
+   ------------------------------------------------------------ */
+
+[GRAPH]
+NODE:ROOT = /Nexus/
+NODE:VERSION = /Nexus/version 3/
+NODE:ROOT_LAW = /Nexus/version 3/NEXUS.ROOT.V3
+NODE:MANIFEST = /Nexus/version 3/NEXUS.MANIFEST
+NODE:INIT = /Nexus/version 3/NEXUS.INIT
+NODE:LEARNING = /Nexus/version 3/LEARNING/
+NODE:SYMBOLS = /Nexus/version 3/SYMBOLS/
+NODE:ABI = /Nexus/version 3/ABI/
+
+[LINKS]
+ROOT -> VERSION
+VERSION -> ROOT_LAW
+VERSION -> MANIFEST
+VERSION -> INIT
+VERSION -> LEARNING
+LEARNING -> SYMBOLS
+SYMBOLS -> ABI
+ABI -> ROOT

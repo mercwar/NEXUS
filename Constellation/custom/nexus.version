@@ -1,0 +1,15 @@
+/* FILE: nexus.version */
+/* PATH: /Nexus/Constellation/custom/nexus.version */
+
+/* ------------------------------------------------------------
+   AVIS.HEADER
+   ROLE: NEXUS_VERSION_FILE
+   PURPOSE: Defines NEXUS version lineage for Constellation.
+   AUTHOR: Demon
+   ------------------------------------------------------------ */
+
+[VERSION]
+MAJOR = 3
+MINOR = 0
+PATCH = 0
+TAG = NEXUS_V3_ROOT

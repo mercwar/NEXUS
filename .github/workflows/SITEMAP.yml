@@ -28,11 +28,11 @@ jobs:
       - name: "SENTINEL :: Execute fire-site.sh"
         run: |
           chmod +x ./fire-site.sh
-          ./fire-site.sh
+          ./sitemap.sh
 
       - name: "SENTINEL :: Commit XML Artifact"
         run: |
-          git config --global user.name "Sentinel-Bot"
+          git config --global user.name "Nexus-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
           
           # Stage the map

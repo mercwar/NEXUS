@@ -1,259 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/desktop.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/UPLIFT.YML</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/nexus_federation.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/index.avis.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/SITEMAP.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/nexus-sync.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/BASH.yml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/marked.min.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/google77a4b19e8f99751c.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/robots.txt</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.avis</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/cbord.cbord</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/index.html</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.xml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.INIT</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.MANIFEST</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.ROOT.V3</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.ABI</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.INTERPRETER</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.SYMBOLS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.BINDING</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.LIBMAP</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.DATALAKE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.VALIDATION</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.INTRO</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.COMPLETE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.SYNTHESIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.ROOT.FILE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.TUTORIAL.V3</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/robot.lang</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.sh</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/LICENSE</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_17.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_1.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_3.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_19.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/SYNTAX.INI</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_13.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_11.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_24.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_20.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_28.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_5.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/AI%20Mode.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_26.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_10.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_7.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_16.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_15.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_23.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/Readme.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_9.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_22.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_2.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_18.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_21.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_4.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_12.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0003.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0008.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0002.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0009.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0005.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0006.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0007.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0004.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_00010.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0001.SCROLL.MD.AVIS</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/robots.txt</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/robots.avis</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_8.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_6.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_27.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_25.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_14.MD</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/AVIS-CYBORG.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_autobuild.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_linker.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_reduce.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/ROBOT.boot</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/PUBLISH.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_reduce.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/CONSTELLATION.index</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/AVIS.publish.schema</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_publisher.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation.c</loc>
@@ -262,19 +25,49 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/AVIS.datalake</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_linker.c</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/new%202constellation_autobuild.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_publisher.c</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_linker.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/AVIS.schema</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/ROBOT.boot</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation.h</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/PUBLISH.index</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_autobuild.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/new%201constellation_validator.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_validator.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/AVIS.schema</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_reduce.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.identity</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.version</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/sentinel.zip</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/CVBGOD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.graph</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.binding</loc>
@@ -283,61 +76,61 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.version</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.identity</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.graph</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/nexus.rules</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/custom/CVBGOD</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/CONSTELLATION.index</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_publisher.h</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_validator.h</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/AVIS.publish.schema</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/new%201constellation_validator.c</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/README.md</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/new%202constellation_autobuild.h</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_reduce.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.sh</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/Constellation/constellation_linker.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/tabs.html</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/nexus_federation.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.fvs.cyhy.mercg.scroll.firegem.forge.cbord</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/SITEMAP.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/firegem.avis</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/UPLIFT.YML</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robot.avis</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/index.avis.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robots.txt</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/nexus-sync.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.fvs.cyhy.mercg.scroll.firegem.cbord</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/BASH.yml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/robots.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/datalake.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/google77a4b19e8f99751c.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/desktop.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.seed</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/cbord.cbord</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/kernel.c.avis</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/bnf.grammer.bat.avis</loc>
@@ -346,25 +139,76 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.bat</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robots.avis</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.seed</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robots.txt</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.fvs.cyhy.mercg.scroll.cbord</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/window.css</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/firegem.avis</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/readme.md</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robots.avis</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.avis</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/robot.avis</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/cyborg_window_controls.js</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/kernel.c.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.fvs.cyhy.mercg.scroll.firegem.forge.cbord</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%201/avis.fvs.cyhy.mercg.scroll.firegem.cbord</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.TUTORIAL.V3</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.ROOT.V3</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.INIT</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.MANIFEST</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/NEXUS.ROOT.FILE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.ABI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.INTRO</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.LIBMAP</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.SYNTHESIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.DATALAKE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.VALIDATION</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.BINDING</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.COMPLETE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.SYMBOLS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%203/LEARNING/NEXUS.LEARN.INTERPRETER</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/LIBS/libnexus.meta</loc>
@@ -373,7 +217,166 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/LIBS/libavis.meta</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/datalake.avis</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_24.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_20.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_14.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_2.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_17.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_23.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_1.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_7.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_11.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0009.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0003.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0004.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0002.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0001.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0007.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0006.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0008.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_0005.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/TAB_00010.SCROLL.MD.AVIS</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/AVIS/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/robots.txt</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/robots.avis</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/RES/ROBOTS/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_5.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/SYNTAX.INI</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_6.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_18.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_26.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_9.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_28.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_4.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/Readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/AVIS-CYBORG.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_19.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_10.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_22.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_3.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_16.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_12.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_27.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_13.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_21.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_25.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_15.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/AI%20Mode.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/TABS/TAB_8.MD</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/window.css</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/marked.min.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/readme.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/cyborg_window_controls.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/index.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/cyborg_dir.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/robot.lang</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%202/robot.avis</loc>
@@ -382,9 +385,6 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/VERSION%202/index.html</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/cyborg_dir.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.xml</loc>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/tabs.html</loc>
   </url>
 </urlset>

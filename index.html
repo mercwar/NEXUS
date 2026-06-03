@@ -1,23 +1,817 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CYBORG Desktop — Robo Knight Gold</title>
-<link rel="stylesheet" href="window.css">
-<script src="marked.min.js"></script>
+  <meta charset="UTF-8" />
+  <title>Nexus Repo Browser</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --bg: #05060a;
+      --bg-panel: #0b0f18;
+      --accent: #f5c84c;
+      --accent-soft: rgba(245, 200, 76, 0.18);
+      --text: #f5f5f5;
+      --muted: #7b8190;
+      --border: #1b2233;
+      --danger: #ff4b6a;
+      --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --radius: 10px;
+      --shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #151b2b 0, #05060a 55%);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 10px 18px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(90deg, rgba(10, 14, 25, 0.95), rgba(10, 8, 3, 0.95));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 0 18px rgba(0, 0, 0, 0.6);
+      z-index: 2;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .brand-badge {
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 20%, #ffe9a3, #f5c84c 40%, #f08a1f 80%);
+      box-shadow: 0 0 18px rgba(245, 200, 76, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: #1a1205;
+      font-family: var(--mono);
+    }
+
+    .brand span strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .repo-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .pill {
+      padding: 3px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(10, 14, 25, 0.8);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #3dd68c;
+      box-shadow: 0 0 8px rgba(61, 214, 140, 0.8);
+    }
+
+    .pill-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      font-size: 10px;
+      color: var(--muted);
+    }
+
+    .pill-value {
+      color: var(--accent);
+      font-weight: 600;
+      font-size: 11px;
+    }
+
+    .layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 0;
+      min-height: 0;
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--border);
+      background: radial-gradient(circle at top left, rgba(245, 200, 76, 0.08), transparent 55%), #05060a;
+      box-shadow: 8px 0 25px rgba(0, 0, 0, 0.7);
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .sidebar-header {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .sidebar-header span strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .sidebar-search {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-search input {
+      width: 100%;
+      padding: 6px 9px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(5, 7, 12, 0.9);
+      color: var(--text);
+      font-size: 12px;
+      outline: none;
+      font-family: var(--mono);
+    }
+
+    .sidebar-search input::placeholder {
+      color: var(--muted);
+    }
+
+    .file-tree {
+      flex: 1;
+      overflow: auto;
+      padding: 6px 4px 10px 4px;
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+
+    .tree-node {
+      padding: 2px 4px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: var(--muted);
+      user-select: none;
+    }
+
+    .tree-node:hover {
+      background: rgba(245, 200, 76, 0.08);
+      color: var(--text);
+    }
+
+    .tree-node.active {
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .tree-node .icon {
+      width: 16px;
+      display: inline-flex;
+      justify-content: center;
+      margin-right: 4px;
+      font-size: 11px;
+    }
+
+    .tree-node .name {
+      flex: 1;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .tree-children {
+      margin-left: 14px;
+      border-left: 1px dashed rgba(123, 129, 144, 0.4);
+      padding-left: 6px;
+    }
+
+    .tree-toggle {
+      width: 14px;
+      display: inline-flex;
+      justify-content: center;
+      margin-right: 2px;
+      font-size: 9px;
+      color: var(--muted);
+    }
+
+    .tree-toggle.hidden {
+      visibility: hidden;
+    }
+
+    .main {
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    .main-header {
+      padding: 10px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: radial-gradient(circle at top right, rgba(245, 200, 76, 0.08), transparent 55%);
+    }
+
+    .main-path {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .main-path strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .main-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn {
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(5, 7, 12, 0.9);
+      color: var(--muted);
+      font-size: 11px;
+      padding: 4px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      font-family: var(--mono);
+    }
+
+    .btn-primary {
+      border-color: rgba(245, 200, 76, 0.7);
+      background: radial-gradient(circle at top, rgba(245, 200, 76, 0.18), rgba(5, 7, 12, 0.95));
+      color: var(--accent);
+      box-shadow: 0 0 12px rgba(245, 200, 76, 0.4);
+    }
+
+    .btn:active {
+      transform: translateY(1px);
+    }
+
+    .viewer {
+      flex: 1;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 0;
+    }
+
+    .viewer-meta {
+      padding: 8px 16px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--muted);
+      background: rgba(5, 7, 12, 0.9);
+    }
+
+    .viewer-meta-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .badge {
+      padding: 2px 7px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(10, 14, 25, 0.9);
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--muted);
+    }
+
+    .badge-primary {
+      border-color: rgba(245, 200, 76, 0.7);
+      color: var(--accent);
+    }
+
+    .viewer-body {
+      position: relative;
+      min-height: 0;
+    }
+
+    .viewer-pre {
+      margin: 0;
+      padding: 14px 16px;
+      font-family: var(--mono);
+      font-size: 12px;
+      line-height: 1.5;
+      color: var(--text);
+      background: radial-gradient(circle at top left, rgba(245, 200, 76, 0.05), transparent 55%), #05060a;
+      height: 100%;
+      overflow: auto;
+      white-space: pre;
+    }
+
+    .viewer-empty {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .viewer-empty span {
+      color: var(--accent);
+    }
+
+    .status-bar {
+      position: absolute;
+      bottom: 10px;
+      right: 16px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(5, 7, 12, 0.9);
+      border: 1px solid var(--border);
+      font-size: 10px;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      pointer-events: none;
+    }
+
+    .status-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #3dd68c;
+      box-shadow: 0 0 8px rgba(61, 214, 140, 0.8);
+    }
+
+    .status-dot.error {
+      background: var(--danger);
+      box-shadow: 0 0 8px rgba(255, 75, 106, 0.8);
+    }
+
+    .status-label {
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .status-text {
+      color: var(--accent);
+    }
+
+    @media (max-width: 900px) {
+      .layout {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .sidebar {
+        display: none;
+      }
+    }
+  </style>
 </head>
 <body>
-        <a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html" class="gateway-link">
-            <img 
-                src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
-                alt="Mercwar Constellation" 
-                class="gateway-banner"
-                    width:="400px"
-                    height="AUTO"
-            />
-        </a>
+<header>
+  <div class="brand">
+    <div class="brand-badge">NX</div>
+    <span><strong>NEXUS</strong> REPO INDEX</span>
+  </div>
+  <div class="repo-meta">
+    <div class="pill">
+      <div class="pill-dot"></div>
+      <div class="pill-label">Repo</div>
+      <div class="pill-value" id="repoName">loading...</div>
+    </div>
+    <div class="pill">
+      <div class="pill-label">Branch</div>
+      <div class="pill-value" id="repoBranch">main</div>
+    </div>
+  </div>
+</header>
 
-<div id="desktop"></div>
-<script src="desktop.js"></script>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <span>Repository <strong>Files</strong></span>
+    </div>
+    <div class="sidebar-search">
+      <input id="searchInput" type="text" placeholder="Filter files (Ctrl+K)" />
+    </div>
+    <div class="file-tree" id="fileTree"></div>
+  </aside>
+
+  <main class="main">
+    <div class="main-header">
+      <div class="main-path">
+        <span>Path:</span>
+        <strong id="currentPath">/</strong>
+      </div>
+      <div class="main-actions">
+        <button class="btn" id="openRawBtn">RAW</button>
+        <button class="btn btn-primary" id="openGithubBtn">OPEN IN GITHUB</button>
+      </div>
+    </div>
+
+    <section class="viewer">
+      <div class="viewer-meta">
+        <div class="viewer-meta-left">
+          <div class="badge badge-primary" id="fileTypeBadge">No file selected</div>
+          <div id="fileMeta"></div>
+        </div>
+        <div class="badge" id="repoInfoBadge">GitHub API</div>
+      </div>
+      <div class="viewer-body">
+        <pre class="viewer-pre" id="fileContent" style="display:none;"></pre>
+        <div class="viewer-empty" id="emptyState">
+          <div>
+            <div style="margin-bottom:6px;">Select a file from the left to inspect its contents.</div>
+            <div style="font-size:11px;color:#7b8190;">Nexus index wired as a <span>repo file browser</span>.</div>
+          </div>
+        </div>
+        <div class="status-bar" id="statusBar">
+          <div class="status-dot" id="statusDot"></div>
+          <div class="status-label" id="statusLabel">READY</div>
+          <div class="status-text" id="statusText"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  // --- CONFIG: point this at your repo ---
+  const CONFIG = {
+    owner: "mercwar",
+    repo: "Nexus",
+    branch: "main" // or "master" or whatever
+  };
+
+  // --- DOM refs ---
+  const fileTreeEl = document.getElementById("fileTree");
+  const currentPathEl = document.getElementById("currentPath");
+  const fileContentEl = document.getElementById("fileContent");
+  const emptyStateEl = document.getElementById("emptyState");
+  const fileTypeBadgeEl = document.getElementById("fileTypeBadge");
+  const fileMetaEl = document.getElementById("fileMeta");
+  const repoNameEl = document.getElementById("repoName");
+  const repoBranchEl = document.getElementById("repoBranch");
+  const repoInfoBadgeEl = document.getElementById("repoInfoBadge");
+  const statusBarEl = document.getElementById("statusBar");
+  const statusDotEl = document.getElementById("statusDot");
+  const statusLabelEl = document.getElementById("statusLabel");
+  const statusTextEl = document.getElementById("statusText");
+  const openGithubBtn = document.getElementById("openGithubBtn");
+  const openRawBtn = document.getElementById("openRawBtn");
+  const searchInput = document.getElementById("searchInput");
+
+  let treeData = [];
+  let flatFiles = [];
+  let activePath = null;
+
+  function setStatus(mode, text = "") {
+    if (mode === "loading") {
+      statusDotEl.classList.remove("error");
+      statusLabelEl.textContent = "LOADING";
+      statusTextEl.textContent = text;
+    } else if (mode === "error") {
+      statusDotEl.classList.add("error");
+      statusLabelEl.textContent = "ERROR";
+      statusTextEl.textContent = text;
+    } else {
+      statusDotEl.classList.remove("error");
+      statusLabelEl.textContent = "READY";
+      statusTextEl.textContent = text;
+    }
+  }
+
+  function isTextFile(path) {
+    const lower = path.toLowerCase();
+    const textExts = [
+      ".js",".ts",".jsx",".tsx",".json",".md",".txt",".html",".css",".scss",".sass",".less",
+      ".yml",".yaml",".xml",".c",".h",".cpp",".hpp",".cc",".hh",".py",".rb",".go",".rs",".java",
+      ".cs",".php",".sh",".bat",".ps1",".toml",".ini",".cfg",".conf",".env"
+    ];
+    return textExts.some(ext => lower.endsWith(ext));
+  }
+
+function buildTreeFromPaths(files) {
+  const root = { name: "/", path: "", type: "dir", children: [] };
+
+  for (const file of files) {
+
+    // Skip invalid entries
+    if (!file || !file.path || typeof file.path !== "string") continue;
+
+    const parts = file.path.split("/").filter(Boolean);
+    if (parts.length === 0) continue;
+
+    let node = root;
+    let currentPath = "";
+
+    for (let i = 0; i < parts.length; i++) {
+      const part = parts[i];
+      const isLast = i === parts.length - 1;
+      currentPath = currentPath ? currentPath + "/" + part : part;
+
+      // Ensure node.children ALWAYS exists
+      if (!node.children) node.children = [];
+
+      if (isLast) {
+        // File
+        node.children.push({
+          name: part,
+          path: currentPath,
+          type: file.type,
+          size: file.size || 0,
+          sha: file.sha || ""
+        });
+      } else {
+        // Directory
+        let childDir = node.children.find(
+          c => c.type === "dir" && c.name === part
+        );
+
+        if (!childDir) {
+          childDir = {
+            name: part,
+            path: currentPath,
+            type: "dir",
+            children: []
+          };
+          node.children.push(childDir);
+        }
+
+        node = childDir;
+      }
+    }
+  }
+
+  // Sort folders first, then files
+  function sortNode(n) {
+    if (!n.children) return;
+    n.children.sort((a, b) => {
+      if (a.type === b.type) return a.name.localeCompare(b.name);
+      return a.type === "dir" ? -1 : 1;
+    });
+    n.children.forEach(sortNode);
+  }
+
+  sortNode(root);
+  return root.children;
+}
+
+
+
+  function renderTree(nodes, container, filter = "") {
+    container.innerHTML = "";
+
+    function renderNode(node, parentEl) {
+      const matchesFilter =
+        !filter ||
+        node.type === "dir" ||
+        node.path.toLowerCase().includes(filter.toLowerCase());
+
+      if (!matchesFilter) {
+        if (node.type === "dir" && node.children) {
+          const anyChildMatches = node.children.some(child =>
+            child.path.toLowerCase().includes(filter.toLowerCase())
+          );
+          if (!anyChildMatches) return;
+        } else {
+          return;
+        }
+      }
+
+      const nodeEl = document.createElement("div");
+      nodeEl.className = "tree-node";
+      nodeEl.dataset.path = node.path;
+      nodeEl.dataset.type = node.type;
+
+      const toggleEl = document.createElement("div");
+      toggleEl.className = "tree-toggle";
+      if (node.type === "dir") {
+        toggleEl.textContent = "▾";
+      } else {
+        toggleEl.classList.add("hidden");
+      }
+
+      const iconEl = document.createElement("div");
+      iconEl.className = "icon";
+      iconEl.textContent = node.type === "dir" ? "📁" : "📄";
+
+      const nameEl = document.createElement("div");
+      nameEl.className = "name";
+      nameEl.textContent = node.name;
+
+      nodeEl.appendChild(toggleEl);
+      nodeEl.appendChild(iconEl);
+      nodeEl.appendChild(nameEl);
+      parentEl.appendChild(nodeEl);
+
+      let childrenContainer = null;
+      if (node.type === "dir" && node.children && node.children.length) {
+        childrenContainer = document.createElement("div");
+        childrenContainer.className = "tree-children";
+        parentEl.appendChild(childrenContainer);
+        node.children.forEach(child => renderNode(child, childrenContainer));
+      }
+
+      nodeEl.addEventListener("click", (e) => {
+        e.stopPropagation();
+        if (node.type === "dir") {
+          if (childrenContainer) {
+            const isHidden = childrenContainer.style.display === "none";
+            childrenContainer.style.display = isHidden ? "" : "none";
+            toggleEl.textContent = isHidden ? "▾" : "▸";
+          }
+        } else {
+          selectFile(node.path);
+        }
+      });
+    }
+
+    nodes.forEach(node => renderNode(node, container));
+  }
+
+  async function fetchRepoTree() {
+    setStatus("loading", "Fetching repo tree...");
+    repoNameEl.textContent = `${CONFIG.owner}/${CONFIG.repo}`;
+    repoBranchEl.textContent = CONFIG.branch;
+
+    try {
+      const refRes = await fetch(
+        `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/git/refs/heads/${CONFIG.branch}`
+      );
+      if (!refRes.ok) {
+        throw new Error("Failed to resolve branch ref");
+      }
+      const refData = await refRes.json();
+      const commitSha = refData.object.sha;
+
+      const commitRes = await fetch(
+        `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/git/commits/${commitSha}`
+      );
+      if (!commitRes.ok) {
+        throw new Error("Failed to fetch commit");
+      }
+      const commitData = await commitRes.json();
+      const treeSha = commitData.tree.sha;
+
+      const treeRes = await fetch(
+        `https://api.github.com/repos/${CONFIG.owner}/${CONFIG.repo}/git/trees/${treeSha}?recursive=1`
+      );
+      if (!treeRes.ok) {
+        throw new Error("Failed to fetch tree");
+      }
+      const treeDataRaw = await treeRes.json();
+
+      flatFiles = treeDataRaw.tree
+        .filter(item => item.type === "blob" || item.type === "tree")
+        .map(item => ({
+          path: item.path,
+          type: item.type === "tree" ? "dir" : "file",
+          size: item.size || 0,
+          sha: item.sha
+        }));
+
+      treeData = buildTreeFromPaths(flatFiles);
+      renderTree(treeData, fileTreeEl);
+      setStatus("ready", `Loaded ${flatFiles.length} entries`);
+    } catch (err) {
+      console.error(err);
+      setStatus("error", err.message || "Failed to load repo");
+      repoInfoBadgeEl.textContent = "GitHub API ERROR";
+    }
+  }
+
+  async function selectFile(path) {
+    activePath = path;
+    currentPathEl.textContent = "/" + path;
+
+    document
+      .querySelectorAll(".tree-node")
+      .forEach(el => el.classList.remove("active"));
+    const activeNode = document.querySelector(`.tree-node[data-path="${CSS.escape(path)}"]`);
+    if (activeNode) activeNode.classList.add("active");
+
+    const file = flatFiles.find(f => f.path === path && f.type === "file");
+    if (!file) {
+      fileTypeBadgeEl.textContent = "Directory";
+      fileMetaEl.textContent = "";
+      fileContentEl.style.display = "none";
+      emptyStateEl.style.display = "flex";
+      setStatus("ready", "Directory selected");
+      return;
+    }
+
+    fileTypeBadgeEl.textContent = isTextFile(path) ? "Text file" : "Binary / unknown";
+    fileMetaEl.textContent = `${file.size || 0} bytes • sha ${file.sha.slice(0, 7)}`;
+
+    if (!isTextFile(path)) {
+      fileContentEl.style.display = "none";
+      emptyStateEl.style.display = "flex";
+      emptyStateEl.innerHTML = `<div>Binary or unsupported file type.<br/><span style="font-size:11px;color:#7b8190;">Use RAW or OPEN IN GITHUB.</span></div>`;
+      setStatus("ready", "Binary file");
+      return;
+    }
+
+    setStatus("loading", "Fetching file content...");
+    try {
+      const res = await fetch(
+        `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.branch}/${encodeURIComponent(path)}`
+      );
+      if (!res.ok) {
+        throw new Error("Failed to fetch file");
+      }
+      const text = await res.text();
+      fileContentEl.textContent = text;
+      fileContentEl.style.display = "block";
+      emptyStateEl.style.display = "none";
+      setStatus("ready", "File loaded");
+    } catch (err) {
+      console.error(err);
+      fileContentEl.style.display = "none";
+      emptyStateEl.style.display = "flex";
+      emptyStateEl.innerHTML = `<div>Failed to load file.<br/><span style="font-size:11px;color:#ff4b6a;">${err.message}</span></div>`;
+      setStatus("error", "Failed to load file");
+    }
+  }
+
+  openGithubBtn.addEventListener("click", () => {
+    if (!activePath) {
+      window.open(`https://github.com/${CONFIG.owner}/${CONFIG.repo}`, "_blank");
+      return;
+    }
+    window.open(
+      `https://github.com/${CONFIG.owner}/${CONFIG.repo}/blob/${CONFIG.branch}/${activePath}`,
+      "_blank"
+    );
+  });
+
+  openRawBtn.addEventListener("click", () => {
+    if (!activePath) return;
+    window.open(
+      `https://raw.githubusercontent.com/${CONFIG.owner}/${CONFIG.repo}/${CONFIG.branch}/${activePath}`,
+      "_blank"
+    );
+  });
+
+  searchInput.addEventListener("input", () => {
+    const filter = searchInput.value.trim();
+    renderTree(treeData, fileTreeEl, filter);
+  });
+
+  window.addEventListener("keydown", (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
+      e.preventDefault();
+      searchInput.focus();
+      searchInput.select();
+    }
+  });
+
+  fetchRepoTree();
+</script>
 </body>
 </html>

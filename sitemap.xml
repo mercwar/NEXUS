@@ -13,6 +13,9 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/Live/index.css</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/index.js</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/sitemap.avis</loc>
   </url>
   <url>
@@ -134,6 +137,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/google77a4b19e8f99751c.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/banner.png</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/desktop.js</loc>
@@ -398,5 +404,8 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/tabs.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/index.css</loc>
   </url>
 </urlset>

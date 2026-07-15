@@ -135,7 +135,7 @@ This academy is the **research frontier**, where Mercwar tests new methods of AI
 ---
 ## 📚 Navigator LLM Academy 
 
-##### [Up-Link](https://mercwar.github.io/Navigator-LLM-Academy)
+##### [Up-Link](https://mercwar.github.io/NAVIGATOR-LLM-ACADEMY)
 
 Navigator LLM Academy is the learning gateway of the Mercwar constellation. It explores user‑level LLM support and the AVIS protocol, giving learners the tools to connect with their AI assistant confidently and responsibly.
 

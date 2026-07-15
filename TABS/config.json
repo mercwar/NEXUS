@@ -5,9 +5,8 @@
     "branch": "main"
   },
   "dirs": {
-    "TABS": "TABS/",
-    "ROBOTS": "TABS/RES/ROBOTS",
-    "AVIS": "TABS/RES/AVIS",
-    
+    "TABS": "/TABS/",
+    "ROBOTS": "/TABS/RES/ROBOTS",
+    "AVIS": "/TABS/RES/AVIS"
   }
 }

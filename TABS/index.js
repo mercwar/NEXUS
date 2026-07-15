@@ -18,6 +18,11 @@ const files = [];
 let conn = {};
 let dirs = {};
 
+
+let activePath = null;
+let lastFetchedFileContent = null;
+
+
 async function loadconfig() {
   try {
     const response = await fetch("config.json");
@@ -160,11 +165,6 @@ function buildMenu() {
 }
 
 
-
-
-
-let activePath = null;
-let lastFetchedFileContent = null;
 
 function injectPrismDependencies() {
   if (document.getElementById("prism-core-lib")) return;

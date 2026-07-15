@@ -1,5 +1,5 @@
 
-# 🚀 NEXUS
+## ✨ NEXUS
 
 <a target="_self" title="Enter the Gateway Free" href="https://mercwar.github.io/Constellation/index.html">
 <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
@@ -133,7 +133,13 @@ Navigator AI Academy explores **LLM cross‑origin support** and integration. It
 This academy is the **research frontier**, where Mercwar tests new methods of AI interoperability.
 
 ---
+## 📚 Navigator LLM Academy 
 
+##### [Up-Link](https://mercwar.github.io/Navigator-LLM-Academy)
+
+Navigator LLM Academy is the learning gateway of the Mercwar constellation. It explores user‑level LLM support and the AVIS protocol, giving learners the tools to connect with their AI assistant confidently and responsibly.
+
+---
 ## 📘 Navigator GitHub Academy  
 ##### [Up-Link](https://mercwar.github.io/Navigator-GitHub-Academy)
 A fully interactive Markdown learning system with 20 guided modules. It teaches GitHub fundamentals, workflows, automation, security, and publishing.  

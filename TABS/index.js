@@ -6,89 +6,125 @@
 // ============================================================
 
 
+// ============================================================
+// FILENAME: index.js
+// AVIS-COMPONENT: MENU-BUILDER
+// ARTIFACT-ID: AV-MENU-2026-JS
+// STATE-MATRIX-REF: Version 1/STATE/global.state
+// ============================================================
 
-
-/* Empty array to hold files */
 const files = [];
 
-/* Hardcoded directories object */
-const dirs = {
-    TABS: "TABS/",
-    AVIS: "TABS/RES/AVIS",
-    ROBOTS: "TABS/RES/ROBOTS"
-};
+let conn = {};
+let dirs = {};
 
-/* Stub for GitHub fetch — replace with actual API call */
-/* GitHub API fetch for directory contents */
-async function do_git(path) {
-    // Replace with your repo details
-    const user = "mercwar";        // GitHub username/org
-    const repo = "NEXUS"; // GitHub repo name
-    const branch = "main";         // Branch to read from
-
-    const url = `https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`;
-
-    try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            console.error("GitHub API error:", response.statusText);
-            return [];
-        }
-        const data = await response.json();
-        // Map only file names
-        return data
-            .filter(item => item.type === "file")
-            .map(item => item.name);
-    } catch (err) {
-        console.error("do_git fetch failed:", err);
-        return [];
+async function loadconfig() {
+  try {
+    const response = await fetch("config.json");
+    if (!response.ok) {
+      console.error("Failed to load config.json:", response.statusText);
+      return {};
     }
+
+    const settings = await response.json();
+
+    // assign globals
+    conn = settings.conn || {};
+    dirs = settings.dirs || {};
+
+    console.log("Config loaded:", settings);
+
+    // return dirs so startup can assign it
+    return dirs;
+  } catch (err) {
+    console.error("Error loading config.json:", err);
+    return {};
+  }
 }
 
 
-/* Fill files array from dirs */
-function FillFiles() {
-    Object.entries(dirs).forEach(([key, value]) => {
-        const list = do_git(value);
-        list.forEach(fname => {
-            files.push({
-                name: fname,
-                source: value,
-                category: key
-            });
-        });
-    });
+async function do_git(path) {
+  if (!conn.user || !conn.repo || !conn.branch) {
+    console.error("Repo connection not loaded.");
+    return [];
+  }
+
+  const url = `https://api.github.com/repos/${conn.user}/${conn.repo}/contents/${path}?ref=${conn.branch}`;
+
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.error("GitHub API error:", response.statusText);
+      return [];
+    }
+
+    const data = await response.json();
+    return Array.isArray(data)
+      ? data.filter(item => item.type === "file").map(item => item.name)
+      : [];
+  } catch (err) {
+    console.error("do_git fetch failed:", err);
+    return [];
+  }
 }
 
-/* Render menu */
+
+
+
+// Fill files array from dirs
+async function FillFiles() {
+  if (!dirs || typeof dirs !== "object") {
+    console.warn("Dirs not loaded, skipping FillFiles.");
+    return;
+  }
+
+  for (const [key, value] of Object.entries(dirs)) {
+    try {
+      const list = await do_git(value);
+      list.forEach(fname => {
+        files.push({ name: fname, source: value, category: key });
+      });
+    } catch (err) {
+      console.error(`Error fetching files for ${key}:`, err);
+    }
+  }
+
+  RenderMenu();
+  buildMenu();
+}
+
+
+// Render flat list of files
 function RenderMenu() {
-    const menu = document.getElementById("md-list");
-    menu.innerHTML = "";
-    files.forEach(f => {
-        const li = document.createElement("li");
-        li.textContent = `[${f.category}] ${f.name}`;
-        menu.appendChild(li);
-    });
+  const menu = document.getElementById("md-list");
+  if (!menu) {
+    console.warn("RenderMenu: #md-list not found yet");
+    return;
+  }
+  menu.innerHTML = "";
+  files.forEach(f => {
+    const li = document.createElement("li");
+    li.textContent = `[${f.category}] ${f.name}`;
+    menu.appendChild(li);
+  });
 }
-
-/* Example usage */
-FillFiles();
-RenderMenu();
-
-
-// Build collapsible sidebar menu
 function buildMenu() {
   const menuContainer = document.getElementById("menuContainer");
+  if (!menuContainer) {
+    console.warn("buildMenu: #menuContainer not found yet");
+    return;
+  }
   menuContainer.innerHTML = "";
 
   // Group files by category
   const grouped = {};
   files.forEach(file => {
-    if (!grouped[file.category]) {
-      grouped[file.category] = [];
-    }
+    if (!grouped[file.category]) grouped[file.category] = [];
     grouped[file.category].push(file);
   });
+
+  // Base URL for GitHub Pages, using repo vars from conn
+  const baseUrl = `https://${conn.user}.github.io/${conn.repo}/`;
 
   // Create collapsible sections
   for (const category in grouped) {
@@ -98,18 +134,22 @@ function buildMenu() {
     const header = document.createElement("div");
     header.className = "menu-header";
     header.textContent = category;
-    header.onclick = () => {
-      content.classList.toggle("collapsed");
-    };
 
     const content = document.createElement("div");
     content.className = "menu-content collapsed";
 
+    header.onclick = () => content.classList.toggle("collapsed");
+
     grouped[category].forEach(file => {
       const link = document.createElement("a");
-      link.href = "#";
+      // Build full GitHub Pages URL
+      const fullPath = `${baseUrl}${file.source}/${file.name}`;
+      link.href = fullPath;
       link.textContent = file.name;
-      link.onclick = () => loadFile("html_obj.html", file.source);
+      link.onclick = e => {
+        e.preventDefault();
+        loadFile("html_obj.html", fullPath);
+      };
       content.appendChild(link);
     });
 
@@ -121,14 +161,7 @@ function buildMenu() {
 
 
 
-// Initialize menu on page load
-document.addEventListener("DOMContentLoaded", buildMenu);
-// ============================================================
-// FILENAME: index.js
-// AVIS-COMPONENT: MENU-BUILDER + PRISM RICH DISPLAY
-// ARTIFACT-ID: AV-JS-2026-MENU
-// STATE-MATRIX-REF: Version 1/STATE/global.state
-// ============================================================
+
 
 let activePath = null;
 let lastFetchedFileContent = null;
@@ -165,32 +198,85 @@ function injectPrismDependencies() {
 
   document.body.appendChild(scriptEl);
 }
-
 function getPrismLanguageClass(path) {
   const lower = path.toLowerCase();
 
+  // Direct render types
+  if (lower.endsWith(".html") || lower.endsWith(".htm") || lower.endsWith(".xml"))
+    return "render-html";
+  if (lower.endsWith(".md") || lower.endsWith(".markdown"))
+    return "render-markdown";
+  if (lower.endsWith(".png") || lower.endsWith(".jpg") || lower.endsWith(".jpeg") || lower.endsWith(".gif") || lower.endsWith(".svg"))
+    return "render-image";
+
+  // Code highlight types
   if (lower.endsWith(".js") || lower.endsWith(".jsx")) return "language-javascript";
   if (lower.endsWith(".ts") || lower.endsWith(".tsx")) return "language-typescript";
   if (lower.endsWith(".json")) return "language-json";
-  if (lower.endsWith(".md")) return "language-markdown";
   if (lower.endsWith(".py")) return "language-python";
-  if (lower.endsWith(".html") || lower.endsWith(".xml")) return "language-markup";
   if (lower.endsWith(".css")) return "language-css";
   if (lower.endsWith(".sh") || lower.endsWith(".bash")) return "language-bash";
   if (lower.endsWith(".c") || lower.endsWith(".h")) return "language-c";
   if (lower.endsWith(".cpp") || lower.endsWith(".hpp")) return "language-cpp";
-
-  // NEW: Java support
   if (lower.endsWith(".java")) return "language-java";
-
-  // NEW: ASM support (map to clike or custom)
-  if (lower.endsWith(".asm")) return "language-clike"; // Prism doesn’t have native ASM, clike is closest
-
-  // NEW: PHP support
+  if (lower.endsWith(".asm")) return "language-clike";
   if (lower.endsWith(".php")) return "language-php";
 
   return "language-none";
 }
+
+function loadFile(wrapperUrl, sourceUrl) {
+  activePath = sourceUrl;
+  fetch(wrapperUrl)
+    .then(r => r.text())
+    .then(wrapperHtml => {
+      const fc = document.getElementById("fileContent");
+      if (fc) fc.innerHTML = wrapperHtml;
+      return fetch(sourceUrl);
+    })
+    .then(r => r.text())
+    .then(sourceCode => {
+      lastFetchedFileContent = sourceCode;
+      const viewDiv = document.querySelector(".source-view");
+      if (!viewDiv) return;
+
+      const langClass = getPrismLanguageClass(sourceUrl);
+
+      if (langClass === "render-html") {
+        viewDiv.innerHTML = sourceCode; // let browser render HTML
+        return;
+      }
+
+      if (langClass === "render-markdown") {
+        viewDiv.innerHTML = marked.parse(sourceCode); // requires marked.js
+        return;
+      }
+
+      if (langClass === "render-image") {
+        viewDiv.innerHTML = `<img src="${sourceUrl}" alt="${sourceUrl}" style="max-width:100%; height:auto;" />`;
+        return;
+      }
+
+      // Default: Prism highlight
+      const safe = sourceCode
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      viewDiv.innerHTML = `
+        <pre class="${langClass}" style="margin:0; padding:1rem; background:transparent;">
+          <code class="${langClass}">${safe}</code>
+        </pre>
+      `;
+      Prism.highlightAllUnder(viewDiv);
+    })
+    .catch(err => {
+      const fc = document.getElementById("fileContent");
+      if (fc) fc.innerHTML = "<p style='color:red'>Error loading file.</p>";
+      console.error("loadFile error:", err);
+    });
+}
+
+
 
 function renderPrismCode(rawCode, path) {
   const langClass = getPrismLanguageClass(path);
@@ -206,32 +292,16 @@ function renderPrismCode(rawCode, path) {
   `;
 }
 
-// Override loadFile to use Prism rendering
-function loadFile(wrapperUrl, sourceUrl) {
-  activePath = sourceUrl;
-  fetch(wrapperUrl)
-    .then(response => response.text())
-    .then(wrapperHtml => {
-      document.getElementById("fileContent").innerHTML = wrapperHtml;
-      return fetch(sourceUrl);
-    })
-    .then(response => response.text())
-    .then(sourceCode => {
-      lastFetchedFileContent = sourceCode;
-      const viewDiv = document.querySelector(".source-view");
-      if (viewDiv) {
-        viewDiv.innerHTML = renderPrismCode(sourceCode, sourceUrl);
-        Prism.highlightAllUnder(viewDiv); // apply Prism highlighting
-      }
-    })
-    .catch(err => {
-      document.getElementById("fileContent").innerHTML =
-        "<p style='color:red'>Error loading file.</p>";
-    });
-}
 
-// Initialize
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   injectPrismDependencies();
-  buildMenu();
+  
+  dirs = await loadconfig(); // load from config.json
+
+  if (!document.getElementById("menuContainer")) {
+    console.error("#menuContainer element missing in HTML");
+    return;
+  }
+
+  await FillFiles(); // fetch GitHub files, then render menu
 });

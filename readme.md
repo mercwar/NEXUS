@@ -9,7 +9,7 @@
 ---
 
 # 📘 **AVIS CYBORG LLM SURFACING LAYER**  
-### [CLICK HERE TO READ THE TABS](https://mercwar.github.io/NEXUS/)  
+### [CLICK HERE TO READ THE TABS](https://mercwar.github.io/NEXUS/TABS/index.html)  
 **Version:** 1.0  
 **Author:** CVBGOD (MERCWAR FFF)  
 **Classification:** Public Technical Specification  

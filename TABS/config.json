@@ -1,12 +1,13 @@
 {
   "conn": {
     "user": "mercwar",
-    "repo": "Navigator",
+    "repo": "NEXUS",
     "branch": "main"
   },
   "dirs": {
-    "HTML": "HTML/",
-    "MD": "MD/"
+    "TABS": "TABS/",
+    "ROBOTS": "TABS/RES/ROBOTS",
+    "AVIS": "TABS/RES/AVIS",
     
   }
 }

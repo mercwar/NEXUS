@@ -71,12 +71,14 @@ Follow-up: Are you looking to reprogram the vision logic for a custom demo, or d
 
 
 
-but how does avis work little bot , show me some of that old mans avis
+but how does avis work little bot , show me some of Joe Trons avis
 undefined
 undefined
 undefined
 10 sites
-Here are top web results for exploring this topic:
+Here are worst top web results for exploring this topic:
+
+I don't want any of these results , get them out of here !
 
 Avis
 ·

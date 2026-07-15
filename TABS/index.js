@@ -5,67 +5,75 @@
 // STATE-MATRIX-REF: Version 1/STATE/global.state
 // ============================================================
 
-const files = [
-  // Core Agent Control
-  { name: "agent.md", source: "./Core-Agent-Control/agent.md", category: "Core Agent Control" },
-  { name: "llm.txt", source: "./Core-Agent-Control/llm.txt", category: "Core Agent Control" },
-  { name: "AGENTS.md", source: "./Core-Agent-Control/AGENTS.md", category: "Core Agent Control" },
-  { name: "NEXT.md", source: "./Core-Agent-Control/NEXT.md", category: "Core Agent Control" },
-  { name: "CONFIG.md", source: "./Core-Agent-Control/CONFIG.md", category: "Core Agent Control" },
-  { name: "VERSION.md", source: "./Core-Agent-Control/VERSION.md", category: "Core Agent Control" },
 
-  // Kernel + Runtime ASM
-  { name: "prime_kernel.asm", source: "./Kernel-Runtime-ASM/prime_kernel.asm", category: "Kernel Runtime" },
-  { name: "prime_loop.asm", source: "./Kernel-Runtime-ASM/prime_loop.asm", category: "Kernel Runtime" },
-  { name: "prime_state.asm", source: "./Kernel-Runtime-ASM/prime_state.asm", category: "Kernel Runtime" },
-  { name: "prime_runtime.asm", source: "./Kernel-Runtime-ASM/prime_runtime.asm", category: "Kernel Runtime" },
-  { name: "prime_debug.asm", source: "./Kernel-Runtime-ASM/prime_debug.asm", category: "Kernel Runtime" },
 
-  // Scoring C
-  { name: "prime_scoring.c", source: "./Scoring-C/prime_scoring.c", category: "Scoring" },
-  { name: "prime_stability.c", source: "./Scoring-C/prime_stability.c", category: "Scoring" },
-  { name: "prime_coherence.c", source: "./Scoring-C/prime_coherence.c", category: "Scoring" },
-  { name: "prime_efficiency.c", source: "./Scoring-C/prime_efficiency.c", category: "Scoring" },
-  { name: "prime_novelty.c", source: "./Scoring-C/prime_novelty.c", category: "Scoring" },
-  { name: "prime_conflict.c", source: "./Scoring-C/prime_conflict.c", category: "Scoring" },
-  { name: "prime_consensus.c", source: "./Scoring-C/prime_consensus.c", category: "Scoring" },
 
-  // Evaluation Java
-  { name: "Prime_BranchEvaluator.java", source: "./Evaluation-Java/Prime_BranchEvaluator.java", category: "Evaluation" },
-  { name: "Prime_RankingEngine.java", source: "./Evaluation-Java/Prime_RankingEngine.java", category: "Evaluation" },
-  { name: "Prime_Comparator.java", source: "./Evaluation-Java/Prime_Comparator.java", category: "Evaluation" },
-  { name: "Prime_Matrix.java", source: "./Evaluation-Java/Prime_Matrix.java", category: "Evaluation" },
-  { name: "Prime_SymbolicCompiler.java", source: "./Evaluation-Java/Prime_SymbolicCompiler.java", category: "Evaluation" },
+/* Empty array to hold files */
+const files = [];
 
-  // Synthesis PHP
-  { name: "prime_selector.php", source: "./Synthesis-PHP/prime_selector.php", category: "Synthesis" },
-  { name: "prime_arbitration.php", source: "./Synthesis-PHP/prime_arbitration.php", category: "Synthesis" },
-  { name: "prime_synthesis.php", source: "./Synthesis-PHP/prime_synthesis.php", category: "Synthesis" },
-  { name: "prime_patterns.php", source: "./Synthesis-PHP/prime_patterns.php", category: "Synthesis" },
-  { name: "prime_personality.php", source: "./Synthesis-PHP/prime_personality.php", category: "Synthesis" },
+/* Hardcoded directories object */
+const dirs = {
+    TABS: "TABS/",
+    AVIS: "TABS/RES/AVIS",
+    ROBOTS: "TABS/RES/ROBOTS"
+};
 
-  // Application
-  { name: "prime_agent.c", source: "./Application/prime_agent.c", category: "Application" },
-  { name: "prime_core.c", source: "./Application/prime_core.c", category: "Application" },
-  { name: "prime_ai.java", source: "./Application/prime_ai.java", category: "Application" },
-  { name: "prime_utils.php", source: "./Application/prime_utils.php", category: "Application" },
-  { name: "prime_tests.c", source: "./Application/prime_tests.c", category: "Application" },
+/* Stub for GitHub fetch — replace with actual API call */
+/* GitHub API fetch for directory contents */
+async function do_git(path) {
+    // Replace with your repo details
+    const user = "mercwar";        // GitHub username/org
+    const repo = "NEXUS"; // GitHub repo name
+    const branch = "main";         // Branch to read from
 
-  // Resources 
+    const url = `https://api.github.com/repos/${user}/${repo}/contents/${path}?ref=${branch}`;
 
-  { name: "prime_metrics.json", source: "./Resources-DB/prime_metrics.json", category: "Resources" },
-  { name: "prime_profiles.json", source: "./Resources-DB/prime_profiles.json", category: "Resources" },
-  { name: "prime_rules.json", source: "./Resources-DB/prime_rules.json", category: "Resources" },
-  { name: "prime_dependencies.json", source: "./Resources-DB/prime_dependencies.json", category: "Resources" },
-  { name: "prime_ResponseFormat.json", source: "./Resources-DB/prime_ResponseFormat.json", category: "Resources" },
-// + Docs
-  { name: "prime_readme.md", source: "./Resources-Docs/prime_readme.md", category: "Docs" },
-  { name: "prime_architecture.md", source: "./Resources-Docs/prime_architecture.md", category: "Docs" },
-  { name: "prime_execution.md", source: "./Resources-Docs/prime_execution.md", category: "Docs" },
-  { name: "prime_api.md", source: "./Resources-Docs/prime_api.md", category: "Docs" },
-  { name: "prime_security.md", source: "./Resources-Docs/prime_security.md", category: "Docs" },
-  { name: "prime_tutorial.md", source: "./Resources-Docs/prime_tutorial.md", category: "Docs" }
-];
+    try {
+        const response = await fetch(url);
+        if (!response.ok) {
+            console.error("GitHub API error:", response.statusText);
+            return [];
+        }
+        const data = await response.json();
+        // Map only file names
+        return data
+            .filter(item => item.type === "file")
+            .map(item => item.name);
+    } catch (err) {
+        console.error("do_git fetch failed:", err);
+        return [];
+    }
+}
+
+
+/* Fill files array from dirs */
+function FillFiles() {
+    Object.entries(dirs).forEach(([key, value]) => {
+        const list = do_git(value);
+        list.forEach(fname => {
+            files.push({
+                name: fname,
+                source: value,
+                category: key
+            });
+        });
+    });
+}
+
+/* Render menu */
+function RenderMenu() {
+    const menu = document.getElementById("md-list");
+    menu.innerHTML = "";
+    files.forEach(f => {
+        const li = document.createElement("li");
+        li.textContent = `[${f.category}] ${f.name}`;
+        menu.appendChild(li);
+    });
+}
+
+/* Example usage */
+FillFiles();
+RenderMenu();
 
 
 // Build collapsible sidebar menu

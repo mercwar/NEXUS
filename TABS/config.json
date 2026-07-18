@@ -7,6 +7,8 @@
   "dirs": {
     "TABS": "/TABS/",
     "ROBOTS": "/TABS/RES/ROBOTS",
-    "AVIS": "/TABS/RES/AVIS"
+    "AVIS": "/TABS/RES/AVIS",
+    "LAB": "TABS/LAB/",
   }
 }
+

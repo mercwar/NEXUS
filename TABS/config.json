@@ -5,7 +5,7 @@
     "branch": "main"
   },
   "dirs": {
-    "TABS": "/TABS",
+    "TABS": "/TABS/",
     "ROBOTS": "/TABS/RES/ROBOTS",
     "AVIS": "/TABS/RES/AVIS",
     "LAB": "/TABS/LAB"

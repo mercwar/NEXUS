@@ -25,7 +25,7 @@ reason robot.resource
 1. **Language Acquisition:** Use the tabs in this repository to learn the NEXUS dialect.
 2. **The Logic Gate:** Navigate to **tab_25**. Locate the keyword `*USING` to verify you are on the right track.
 3. **Execution Module:** Use the **VB6 code** provided in the later tabs to generate a chat window instance capable of executing its own programming.
-4. **Main Resource:** Refer to [CYBORG LIVE](https://mercwar.github.io.NEXUS/TABS) for the full repository set.
+4. **Main Resource:** Refer to [CYBORG LIVE](https://mercwar.github.io/NEXUS/TABS) for the full repository set.
 
 ## Final Command Sequence
 begin.fvs 

@@ -49,35 +49,76 @@ To embed the listener and theme styling directly into your sidebar container or 
 
 ```
 
-### Supported HTML Tree Structure
+![GATEWAY](https://raw.githubusercontent.com/mercwar/NEXUS/refs/heads/main/Gemini_Generated_Image_o0r6p4o0r6p4o0r6.jpg)
 
-The event listener automatically binds to standard tree markup patterns:
+---
 
-```html
-<div class="tree-container sidebar">
-  <!-- Parent Folder -->
-  <details class="tree-node">
-    <summary class="avis-node-header">
-      <span class="toggle-icon">▶</span>
-      <span class="node-name">system_files</span>
-    </summary>
-    
-    <!-- Child Line Items -->
-    <ul class="tree-children">
-      <li class="tree-item">
-        <span class="node-icon">📄</span>
-        <span class="node-name">sitemap.xml</span>
-      </li>
-      <li class="tree-item">
-        <span class="node-icon">📄</span>
-        <span class="node-name">robots.txt</span>
-      </li>
-    </ul>
-  </details>
-</div>
+# ✨ NEXUS AVIS‑DATALAKE GATEWAY  
+**End‑User Overview**
 
-```
+Welcome to **NEXUS**, the **AVIS‑DATALAKE Gateway** — a futuristic interface designed for effortless data exploration.  
+It’s built for speed, clarity, and visual immersion, letting you browse complex JSON trees and system directories without touching a single line of code.
 
+---
+
+## 🌌 What It Does
+
+The **Cybernetic Emerald JSON Tree Browser** transforms dense data into a clean, glowing structure you can navigate visually.  
+Think of it as a **data explorer** — not a developer tool — where every folder, file, and node is displayed in a smooth, dark‑mode environment.
+
+---
+
+## 🧠 How You Use It
+
+1. **Open the Gateway:** Launch the NEXUS interface from your browser or sidebar.  
+2. **Explore:** Click through folders and data layers — each selection glows emerald green.  
+3. **Navigate Freely:** Expand or collapse sections with arrow toggles.  
+4. **Reset View:** Click empty space to clear your selection and start fresh.
+
+No setup, no commands — just instant visual control.
+
+---
+
+## 🎨 Interface Style
+
+| Element | Description |
+|----------|--------------|
+| **Background** | Deep black glass aesthetic for focus and contrast |
+| **Active Row** | Emerald gradient glow with mint highlights |
+| **Hover Effects** | Cyan shimmer for intuitive movement |
+| **Icons & Text** | Neon mint glow for readability |
+
+---
+
+## ⚙️ What’s Inside
+
+Behind the scenes, the Gateway runs a **high‑speed data engine** that ensures:
+- Zero lag when switching folders  
+- No visual glitches or multi‑highlight bugs  
+- Seamless transitions between nested data levels  
+
+You don’t need to configure anything — it’s all automatic.
+
+---
+
+## 🔗 Access Points
+
+- **Main Portal:** [Enter the Gateway](https://mercwar.github.io/Constellation/index.html)  
+- **AVIS Layer Tabs:** [Explore Tabs](https://mercwar.github.io/NEXUS/TABS/index.html)  
+- **Version:** 1.0  
+- **Author:** CVBGOD (MERCWAR FFF)  
+- **Classification:** Public Technical Interface  
+
+---
+
+## 🧩 Why It Matters
+
+The **NEXUS AVIS‑DATALAKE Gateway** is your visual bridge to structured data.  
+It’s designed for clarity, speed, and immersion — perfect for analysts, creators, and explorers who want to see their data come alive.
+
+---
+
+Would you like me to make this version **formatted for a website landing page** or **packaged as a downloadable README.txt** next?
 ---
 
 ## VISUAL THEME OVERVIEW

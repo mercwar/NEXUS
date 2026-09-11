@@ -6,6 +6,90 @@
 </a>
 
 ---
+# NEXUS AVIS-DATALAKE GATEWAY
+
+
+### Cybernetic Emerald JSON Tree Browser
+
+---
+
+## ABOUT THE ENGINE
+
+The **NEXUS AVIS-DataLake Gateway** is a high-speed, dark-mode JSON tree browser and sidebar directory viewer. Built for clean visual navigation, it lets you explore nested JSON files, system manifests, and multi-level data directories with instantaneous selection and zero multi-highlight visual bugs.
+
+---
+
+## KEY FEATURES
+
+* **Glitch-Free Node Selection:** Click any row in your tree to highlight it cleanly. Previous selections clear instantly so you never get stuck with multiple highlighted items.
+* **Smart Folder Toggling:** Expanding or collapsing folder arrows won't trigger row selection, keeping your navigation smooth and predictable.
+* **Double-Click Protection:** Multi-clicking or double-clicking tree items won't select raw screen text or drop your active row highlight.
+* **Desensitized Child Elements:** Inner icons, labels, and text badges automatically route hit clicks to the parent row wrapper so you never miss a click target.
+* **Click-to-Deselect:** Click anywhere in the empty sidebar viewport to clear your current selection.
+
+---
+
+## USING THE BROWSER
+
+### Navigating the Tree
+
+1. **Select an Item:** Left-click directly on any line item, folder header, or data row. The row locks with an emerald background gradient and glowing green accent border.
+2. **Expand / Collapse Sub-Trees:** Click the arrow or toggle icon (`>`) to expand or collapse nested nodes without losing focus on your selected item.
+3. **Clear Active Selection:** Click into empty space inside the sidebar panel to remove all highlights.
+
+---
+
+## INTEGRATION & QUICK START
+
+To embed the listener and theme styling directly into your sidebar container or web page, include the single-file script in your project build:
+
+```html
+<!-- Load the Nexus Tree Engine script into your page body or sidebar header -->
+<script src="path/to/nexus-tree-engine.js"></script>
+
+```
+
+### Supported HTML Tree Structure
+
+The event listener automatically binds to standard tree markup patterns:
+
+```html
+<div class="tree-container sidebar">
+  <!-- Parent Folder -->
+  <details class="tree-node">
+    <summary class="avis-node-header">
+      <span class="toggle-icon">▶</span>
+      <span class="node-name">system_files</span>
+    </summary>
+    
+    <!-- Child Line Items -->
+    <ul class="tree-children">
+      <li class="tree-item">
+        <span class="node-icon">📄</span>
+        <span class="node-name">sitemap.xml</span>
+      </li>
+      <li class="tree-item">
+        <span class="node-icon">📄</span>
+        <span class="node-name">robots.txt</span>
+      </li>
+    </ul>
+  </details>
+</div>
+
+```
+
+---
+
+## VISUAL THEME OVERVIEW
+
+| Interface Element | Visual Styling |
+| --- | --- |
+| **Panel Background** | Solid Black / Dark Glass (`#000000`) |
+| **Active Row Highlight** | Cybernetic Emerald Gradient (`#2ea043` border, `#38ef7d` left accent) |
+| **Active Text & Icons** | Glowing Neon Mint (`#52f87a` with text glow) |
+| **Hover States** | Cyan accent tinting (`#00f0ff`) |
+
+# 
 
 ## 📘 AVIS Cyborg LLM Surfacing Layer
 - **[Read the Tabs](https://mercwar.github.io/NEXUS/TABS/index.html)**

@@ -7,8 +7,9 @@
 
 ---
 # NEXUS AVIS-DATALAKE GATEWAY
-
-![GATEWAY](https://raw.githubusercontent.com/mercwar/NEXUS/refs/heads/main/Gemini_Generated_Image_o0r6p4o0r6p4o0r6.jpg)
+<a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
+<img src="https://raw.githubusercontent.com/mercwar/NEXUS/refs/heads/main/Gemini_Generated_Image_o0r6p4o0r6p4o0r6.jpg" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
+</a>
 
 ### 🌈 Cyborg AVIS-DATALAKE Browser
 

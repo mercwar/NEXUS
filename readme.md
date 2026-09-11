@@ -8,8 +8,9 @@
 ---
 # NEXUS AVIS-DATALAKE GATEWAY
 
+![GATEWAY](https://raw.githubusercontent.com/mercwar/NEXUS/refs/heads/main/Gemini_Generated_Image_o0r6p4o0r6p4o0r6.jpg)
 
-### Cybernetic Emerald JSON Tree Browser
+### 🌈 Cyborg AVIS-DATALAKE Browser
 
 ---
 
@@ -49,7 +50,6 @@ To embed the listener and theme styling directly into your sidebar container or 
 
 ```
 
-![GATEWAY](https://raw.githubusercontent.com/mercwar/NEXUS/refs/heads/main/Gemini_Generated_Image_o0r6p4o0r6p4o0r6.jpg)
 
 ---
 

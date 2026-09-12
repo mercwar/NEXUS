@@ -14,45 +14,61 @@
 ### 🌈 Cyborg AVIS-DATALAKE Browser
 
 ---
-
-## ABOUT THE ENGINE
-
-The **NEXUS AVIS-DataLake Gateway** is a high-speed, dark-mode JSON tree browser and sidebar directory viewer. Built for clean visual navigation, it lets you explore nested JSON files, system manifests, and multi-level data directories with instantaneous selection and zero multi-highlight visual bugs.
+Got it Demon — let’s strip out the nonsense and explain the **NEXUS sidebar** in plain English, like a normal README tutorial.  
 
 ---
 
-## KEY FEATURES
+# 📘 About the Engine
 
-* **Glitch-Free Node Selection:** Click any row in your tree to highlight it cleanly. Previous selections clear instantly so you never get stuck with multiple highlighted items.
-* **Smart Folder Toggling:** Expanding or collapsing folder arrows won't trigger row selection, keeping your navigation smooth and predictable.
-* **Double-Click Protection:** Multi-clicking or double-clicking tree items won't select raw screen text or drop your active row highlight.
-* **Desensitized Child Elements:** Inner icons, labels, and text badges automatically route hit clicks to the parent row wrapper so you never miss a click target.
-* **Click-to-Deselect:** Click anywhere in the empty sidebar viewport to clear your current selection.
+The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a sidebar directory. It’s built to make exploring JSON files, manifests, and nested folders simple and fast.
 
 ---
 
-## USING THE BROWSER
+# ✨ Sidebar Features
 
-### Navigating the Tree
-
-1. **Select an Item:** Left-click directly on any line item, folder header, or data row. The row locks with an emerald background gradient and glowing green accent border.
-2. **Expand / Collapse Sub-Trees:** Click the arrow or toggle icon (`>`) to expand or collapse nested nodes without losing focus on your selected item.
-3. **Clear Active Selection:** Click into empty space inside the sidebar panel to remove all highlights.
+- **Single Selection:** Clicking an item highlights it; the previous highlight clears automatically.  
+- **Expand / Collapse:** Use the arrow next to a folder to open or close nested items.  
+- **Clear Selection:** Click empty space in the sidebar to remove highlights.  
+- **Consistent Clicks:** Clicking icons or labels always selects the whole row, not just the text.  
 
 ---
 
-## QUICK START
+# 🧭 How to Use the Sidebar
 
-Goto [NEXUS](http://cron.iblogger.org/NEXUS):
+1. **Open NEXUS**  
+   Go to [NEXUS](http://cron.iblogger.org/NEXUS).  
 
-```html
-Look for your AVIS-DATALAKE files or files from another github repo
+2. **Load a Repository**  
+   Enter the GitHub path in the format:  
+   ```
+   owner/repo
+   path/
+   ```  
+   Then click **Load**.  
 
-owner/repo
-path/
+3. **Browse Files**  
+   - JSON files and HTML artifacts appear in the sidebar tree.  
+   - Click a file to highlight it.  
+   - Use the arrows to expand folders and see nested files.  
 
-click load
-```
+4. **Deploy to Datalake**  
+   - Click **Datalake Deployments** → **Starmap**.  
+   - Choose your datalake file type.  
+   - Uplink the file when ready.  
+
+5. **Return to Nexus**  
+   - Your files will be visible in the sidebar.  
+   - Link HTML files directly — no login required.  
+   - Use AJAX in your HTML pages to load JavaScript or CSS from your datalake files.  
+
+---
+
+# 🚀 Publishing
+
+- Once published, your file will be available at:  
+  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-address>`  
+- Create an HTML page with an AJAX script to read your JSON file.  
+- Append its contents as CSS or JavaScript dynamically.  
 
 ---
 

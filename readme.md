@@ -14,9 +14,7 @@
 ### 🌈 Cyborg AVIS-DATALAKE Browser
 
 ---
-Got it Demon — let’s strip out the nonsense and explain the **NEXUS sidebar** in plain English, like a normal README tutorial.  
 
----
 
 # 📘 About the Engine
 

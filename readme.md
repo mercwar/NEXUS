@@ -52,7 +52,11 @@ To embed the listener and theme styling directly into your sidebar container or 
 ```
 
 
----
+---# NEXUS AVIS-DATALAKE GATEWAY
+
+<a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
+<img src="images/nex_rm.jpg" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
+</a>
 
 # ✨ NEXUS AVIS‑DATALAKE GATEWAY  
 **End‑User Overview**

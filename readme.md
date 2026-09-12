@@ -41,15 +41,61 @@ The **NEXUS AVIS-DataLake Gateway** is a high-speed, dark-mode JSON tree browser
 
 ---
 
-## INTEGRATION & QUICK START
+## QUICK START
 
-To embed the listener and theme styling directly into your sidebar container or web page, include the single-file script in your project build:
+Goto [NEXUS](http://cron.iblogger.org/NEXUS):
 
 ```html
-<!-- Load the Nexus Tree Engine script into your page body or sidebar header -->
-<script src="path/to/nexus-tree-engine.js"></script>
+Look for your AVIS-DATALAKE files or files from another github repo
 
+owner/repo
+path/
+
+click load
 ```
+
+---
+
+# AVIS‑DATALAKE — Linking Files and Publishing with GitHub Pages
+
+## 🔍 Locate Your Files
+1. Look for your **AVIS‑DATALAKE files** or files from another GitHub repository.  
+   - Format: `owner/repo/path/`  
+2. Click **Load Repository**.
+
+## 📂 Choose Artifacts
+- Look for **JSON files** or an **HTML artifact file** inside the repository.  
+- Click **Datalake Deployments** and go to the **Starmap**.  
+- Choose your datalake file type from the star map.  
+- Uplink the file when you’re ready.
+
+## 🌐 Nexus Gateway
+- Go back to **NEXUS** and look for your files.  
+- Link your HTML files freely — **no login required**.  
+- Use **AJAX** to load your JavaScript and CSS from your own custom datalake files.
+
+## 📡 Publishing
+- You only need the **URL of a file** to link it to GitHub Pages where files are served.  
+- When you publish, go to:  
+  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-address>`  
+- The page will be published on **mercwar hosted GitHub Pages** with full HTML.
+
+## 🛠️ How to Build Your Page
+1. Create your own HTML page.  
+2. Add an **AJAX script** to read your JSON file in the `<html>` section of the home file.  
+3. Do not select hypertext — instead, select a different file type and paste your JavaScript or CSS into the HTML field.  
+4. The JSON file will be published, and your CSS/JavaScript code will be inside the JSON file.  
+5. Use your AJAX function in the HTML page to call that JSON file and append its content as CSS or JavaScript.
+
+---
+
+## ✅ Key Points
+- **Load repository** → find JSON/HTML artifacts.  
+- **Use Starmap** → choose datalake file type.  
+- **Publish via GitHub Pages** → link JSON file URL.  
+- **AJAX integration** → append CSS/JS dynamically.  
+
+---
 
 
 ---# NEXUS AVIS-DATALAKE GATEWAY

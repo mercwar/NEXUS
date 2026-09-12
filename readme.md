@@ -40,7 +40,7 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
    Enter the GitHub path in the format:  
    ```
    owner/repo
-   path/
+   /path
    ```  
    Then click **Load**.  
 
@@ -61,10 +61,11 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
 
 ---
 
-# 🚀 Publishing
+# 🚀 Publishing 
 
-- Once published, your file will be available at:  
-  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-address>`  
+- Once published, if the file lives in mercwar/AVIS-DATALAKE/dl then your file(s) will be available at:  
+  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-number.json>`
+    `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-number.html>`  
 - Create an HTML page with an AJAX script to read your JSON file.  
 - Append its contents as CSS or JavaScript dynamically.  
 
@@ -74,7 +75,8 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
 
 ## 🔍 Locate Your Files
 1. Look for your **AVIS‑DATALAKE files** or files from another GitHub repository.  
-   - Format: `owner/repo/path/`  
+   - Format: `owner/repo` - no trailing back slash
+   - Format: `/path`   - no leading slash if path is empty
 2. Click **Load Repository**.
 
 ## 📂 Choose Artifacts
@@ -91,7 +93,7 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
 ## 📡 Publishing
 - You only need the **URL of a file** to link it to GitHub Pages where files are served.  
 - When you publish, go to:  
-  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-address>`  
+  `https://mercwar.github.io/AVIS-DATALAKE/dl/<your-json-file-address>.html`  
 - The page will be published on **mercwar hosted GitHub Pages** with full HTML.
 
 ## 🛠️ How to Build Your Page
@@ -183,9 +185,6 @@ It’s designed for clarity, speed, and immersion — perfect for analysts, crea
 
 ---
 
-Would you like me to make this version **formatted for a website landing page** or **packaged as a downloadable README.txt** next?
----
-
 ## VISUAL THEME OVERVIEW
 
 | Interface Element | Visual Styling |
@@ -250,11 +249,8 @@ Welcome to the processing boundary matrix for the system environment. This repos
 
 ```bash
 # Clone the repo
-git clone https://github.com/mercwar/Navigator.git
-cd Navigator
-
-# Initialize Cyborg Layer
-./init_cyborg.sh --layer=vb-style
+git clone https://github.com/mercwar/NEXUS.git
+cd NEXUS
 ```
 
 <img src="https://github.com/mercwar/Robo-Knight-Gallery/blob/main/Version%202/Gemini_Generated_Image_3zaat63zaat63zaa.png" alt="Robo-Knight Canonical Shine" style="max-width:100%; height:auto;"/>

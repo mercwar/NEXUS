@@ -124,16 +124,25 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/network.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/memory.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/shell.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/automation.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/kernel.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/recovery.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/kernel.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/recovery.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/hardware.md</loc>
@@ -148,19 +157,55 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/security.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/monitor.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/implant.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/hardware.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/integration.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/diagnostics.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/security.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/integration.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/agent.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/database.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/network.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/implant.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/diagnostics.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/automation.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/shell.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/ui.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/ui.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/ledger.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/agent.md</loc>
@@ -169,7 +214,16 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/deployment.md</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/cognition.html</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/implant/cognition.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/deployment.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/implant/database.html</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/index.css</loc>

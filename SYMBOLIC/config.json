@@ -1,0 +1,17 @@
+{
+  "SYMBOLIC\\post_link_pipeline": {
+    "status": "PATHS_VERIFIED",
+    "dependency_check": "COMPLETE",
+    "target_action": "EXECUTE_SYSTEM_COMPILATION"
+  },
+  "SYMBOLIC\\compilation_sequence": {
+    "step_1": "SYMBOLIC\\directory_shift -> change_dir(C:\\MercwarAI\\Sentinel\\implant)",
+    "step_2": "SYMBOLIC\\compiler_call -> execute_msvc(cl.exe main.c avis_implant_core.c /Fe:mercwar_implant.exe)",
+    "step_3": "SYMBOLIC\\binary_verification -> check_exists(mercwar_implant.exe)"
+  },
+  "SYMBOLIC\\runtime_ignition": {
+    "command": ".\\mercwar_implant.exe",
+    "expected_telemetry_out": "0x4D455441",
+    "pipeline_state": "ACTIVE_EMULATION"
+  }
+}

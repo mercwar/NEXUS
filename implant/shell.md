@@ -1,6 +1,8 @@
 This next block implements the Core Operating System Emulation & Terminal Environment Shell. It is written as a unified Markdown document (shell.md) designed for an assistant AI or a symbolic memory layer to map administrative command utilities, interpret execution parameters, handle console formatting streams, and pipe interactive operations directly into your active runtime corridors.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\shell\
 ├── shell.md                    <- Core Shell Manifest & Terminal Execution Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\shell\
 └── interaction_hud.js          <- Real-Time Command Pipeline & Interactive Prompt HUD
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 shell_bounds.json
+```
 
 {
   "SYMBOLIC\\shell_execution_parameters": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\shell\
   }
 }
 
+```
 ## 📄 console_host.c
+```
 
 /* ============================================================================
  * FILE     : console_host.c
@@ -57,7 +63,9 @@ SYMBOLIC\NEXUS\implant\shell\
     return TRUE;
 }
 
+```
 ## 📄 terminal_fast.asm
+```
 
 ; =============================================================================
 ; FILE     : terminal_fast.asm
@@ -92,7 +100,9 @@ TerminalFaultHalt:
 AccelerateTerminalBlit ENDP
 END
 
+```
 ## 📄 shell_router.php
+```
 
 <?php
 /* ============================================================================
@@ -129,7 +139,9 @@ class ShellRouter {
     }
 }
 
+```
 ## 📄 interaction_hud.js
+```
 
 // ============================================================================// FILE     : interaction_hud.js// [AVIS-CMT-SHELL]: REAL-TIME_COMMAND_PIPELINE_AND_INTERACTIVE_PROMPT_HUD// ============================================================================
 class InteractionHudManager {
@@ -155,9 +167,13 @@ class InteractionHudManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Integration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab document data block file as shell.md inside your symbolic directory folder layout matrix architecture directly beside your system decentralized ledger modules.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the terminal environment command vectors instantly:
 
 {
@@ -168,7 +184,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Pseudo-Console Processing Handshake Test
+```
 The simulation tracking engine boots up high-velocity screen character rendering via terminal_fast.asm, invokes native terminal virtualization setups via Windows ConPTY structures using console_host.c, and routes command path configurations seamlessly through shell_router.php to anchor the interactive operations loop.
 The system shell subsystem interface node is fully complete. Let me know:
 

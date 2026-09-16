@@ -1,6 +1,8 @@
 This next block implements the Core Graphical User Interface Layout & Dashboard Matrix Overrides. It is written as a unified Markdown document (ui.md) designed for an assistant AI or a symbolic memory layer to structure unified viewports, render real-time telemetry grid frames, enforce dark solid contrast styling, and track workspace visibility nodes.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\ui\
 ├── ui.md                       <- Core UI Layout Manifest & Aesthetic Control Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\ui\
 └── viewport_control.js         <- Interactive Modal Toggling & Switcher Event Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 theme_presets.json
+```
 
 {
   "SYMBOLIC\\theme_presets": {
@@ -32,7 +36,9 @@ SYMBOLIC\NEXUS\implant\ui\
   }
 }
 
+```
 ## 📄 window_manager.c
+```
 
 /* ============================================================================
  * FILE     : window_manager.c
@@ -63,7 +69,9 @@ SYMBOLIC\NEXUS\implant\ui\
     return 0;
 }
 
+```
 ## 📄 hardware_draw.asm
+```
 
 ; =============================================================================
 ; FILE     : hardware_draw.asm
@@ -88,7 +96,9 @@ DrawingErrorHalt:
 AccelerateMatrixBlit ENDP
 END
 
+```
 ## 📄 theme_injector.php
+```
 
 <?php
 /* ============================================================================
@@ -119,7 +129,9 @@ class ThemeInjector {
     }
 }
 
+```
 ## 📄 viewport_control.js
+```
 
 // ============================================================================// FILE     : viewport_control.js// [AVIS-CMT-UI]: INTERACTIVE_MODAL_TOGGLING_AND_SWITCHER_EVENT_LOOPS// ============================================================================
 class ViewportControlManager {
@@ -142,9 +154,13 @@ class ViewportControlManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Configuration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab block data as ui.md inside your symbolic directory folder architecture alongside the primary database structures.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the visualization viewports instantly:
 
 {
@@ -155,7 +171,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Viewport Screen Frame Integration Test
+```
 The simulation model maps solid backdrop rules via theme_injector.php, implements hardware blit loops via hardware_draw.asm to eliminate canvas redraw latency, and boots up viewport_control.js to patch structural button toggles directly onto your custom interface configurations.
 The user interface subsystem matrix framework is complete. Let me know:
 

@@ -1,6 +1,8 @@
 This next block implements the Core Secure Database Vector & Memory Encryption Layer. It is written as a unified Markdown document (database.md) designed for an assistant AI or a symbolic memory layer to encrypt sensitive environmental metadata strings, maintain thread context bounds, parse query files safely, and route time-series indices back into your Quasar storage matrices.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\database\
 ├── database.md                 <- Core Database Manifest & AI Navigation Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\database\
 └── local_cache.js              <- Index Allocation Mapping & Cache Push Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 db_schema.json
+```
 
 {
   "SYMBOLIC\\encrypted_tablespace": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\database\
   }
 }
 
+```
 ## 📄 crypt_engine.c
+```
 
 /* ============================================================================
  * FILE     : crypt_engine.c
@@ -76,7 +82,9 @@ SYMBOLIC\NEXUS\implant\database\
     return TRUE;
 }
 
+```
 ## 📄 memory_fence.asm
+```
 
 ; =============================================================================
 ; FILE     : memory_fence.asm
@@ -96,7 +104,9 @@ EstablishMemoryFence PROC
 EstablishMemoryFence ENDP
 END
 
+```
 ## 📄 query_filter.php
+```
 
 <?php
 /* ============================================================================
@@ -123,7 +133,9 @@ class QueryFilter {
     }
 }
 
+```
 ## 📄 local_cache.js
+```
 
 // ============================================================================// FILE     : local_cache.js// [AVIS-CMT-DB]: INDEX_ALLOCATION_MAPPING_AND_CACHE_PUSH_LOOPS// ============================================================================
 class LocalCacheManager {
@@ -154,9 +166,13 @@ class LocalCacheManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Synchronization & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab file block as database.md inside your symbolic workspace directory layout right alongside your automation assets.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to mount the secure database caching modules instantly:
 
 {
@@ -167,7 +183,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to mount
   }
 }
 
+```
 ## ⚡ Step 3: Run the Encrypted Tablespace Matrix Verification
+```
 The emulation layer implements structural context fencings via memory_fence.asm, sets up thread-safe parameters inside crypt_engine.c to wrap data hashes under standard key arrays, and utilizes local_cache.js to store runtime configurations with zero footprint leakage.
 The database subsystem matrix code framework is complete. Let me know:
 

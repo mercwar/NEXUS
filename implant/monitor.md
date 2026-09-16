@@ -1,6 +1,8 @@
 This next block builds the direct runtime tracking engine. It is written as a unified Markdown document (monitor.md) designed to be parsed directly by an assistant AI or placed on a virtual drive to monitor execution states, look up system constraints, and handle data synchronization routes.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\monitor\
 ├── monitor.md                  <- Core Monitoring Manifest & AI Ingestion Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\monitor\
 └── diagnostics.js              <- Real-Time Data Corridor Graphing Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 system_lookup.json
+```
 
 {
   "SYMBOLIC\\hardware_profile": {
@@ -31,7 +35,9 @@ SYMBOLIC\NEXUS\implant\monitor\
   }
 }
 
+```
 ## 📄 registry_handler.c
+```
 
 /* ============================================================================
  * FILE     : registry_handler.c
@@ -69,7 +75,9 @@ SYMBOLIC\NEXUS\implant\monitor\
     return TRUE;
 }
 
+```
 ## 📄 process_alloc.asm
+```
 
 ; =============================================================================
 ; FILE     : process_alloc.asm
@@ -87,7 +95,9 @@ SanitizeCoreRegisters PROC
 SanitizeCoreRegisters ENDP
 END
 
+```
 ## 📄 tracking_bridge.php
+```
 
 <?php
 /* ============================================================================
@@ -121,7 +131,9 @@ class TrackingBridge {
     }
 }
 
+```
 ## 📄 diagnostics.js
+```
 
 // ============================================================================// FILE     : diagnostics.js// [AVIS-CMT-UI]: REAL_TIME_DATA_CORRIDOR_GRAPHING_LOOPS// ============================================================================
 function initializeTelemetryCorridorStream() {
@@ -149,9 +161,13 @@ function initializeTelemetryCorridorStream() {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Ingestion & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab as monitor.md inside your symbolic workspace directory layout alongside your initial application structure.
+```
 ## ⚡ Step 2: Establish the Verification Path Loop
+```
 Instruct the emulated processor shell or reading AI assistant to link up the diagnostics tracking components dynamically:
 
 {
@@ -162,7 +178,9 @@ Instruct the emulated processor shell or reading AI assistant to link up the dia
   }
 }
 
+```
 ## ⚡ Step 3: Run the Neural Telemetry Sweep
+```
 The virtual workspace loop parses the memory allocation boundaries via registry_handler.c, cleans calculation registers via process_alloc.asm, and maps data export rules straight to time-series slots matching your precise data tracking patterns via tracking_bridge.php.
 The tracking infrastructure is laid out. Let me know:
 

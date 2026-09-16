@@ -1,6 +1,8 @@
 This next block implements the Core System Kernel Interface & Operating System Hook Layer. It is written as a unified Markdown document (kernel.md) designed for an assistant AI or a symbolic memory layer to isolate low-level system call entry vectors, allocate process scheduling spaces, sanitize stack frames, and handle local inter-process security rings.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\kernel\
 ├── kernel.md                   <- Core Kernel Manifest & Low-Level Navigation Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\kernel\
 └── thread_poller.js            <- Asynchronous Microtask Thread State Polling Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 system_rings.json
+```
 
 {
   "SYMBOLIC\\access_privilege_rings": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\kernel\
   }
 }
 
+```
 ## 📄 kernel_hook.c
+```
 
 /* ============================================================================
  * FILE     : kernel_hook.c
@@ -63,7 +69,9 @@ SYMBOLIC\NEXUS\implant\kernel\
     return TRUE;
 }
 
+```
 ## 📄 stack_purge.asm
+```
 
 ; =============================================================================
 ; FILE     : stack_purge.asm
@@ -92,7 +100,9 @@ NullStackHalt:
 PurgeThreadStackFrame ENDP
 END
 
+```
 ## 📄 process_route.php
+```
 
 <?php
 /* ============================================================================
@@ -124,7 +134,9 @@ class ProcessRoute {
     }
 }
 
+```
 ## 📄 thread_poller.js
+```
 
 // ============================================================================// FILE     : thread_poller.js// [AVIS-CMT-KERNEL]: ASYNCHRONOUS_MICROTASK_THREAD_STATE_POLLING_LOOPS// ============================================================================
 class ThreadPollerManager {
@@ -163,9 +175,13 @@ class ThreadPollerManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Integration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab file block data as kernel.md inside your symbolic directory folder architecture right alongside your user interface layer assets.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the system call handling vectors instantly:
 
 {
@@ -176,7 +192,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Subsystem Thread Allocation Verification
+```
 The simulation execution sequence invokes dynamic memory protection overrides via kernel_hook.c, secures deep volatile cache lines via stack_purge.asm to purge trace pointers, and mounts service registration trackers via process_route.php to establish total framework mapping stability.
 The kernel hook subsystem matrix code framework is complete. Let me know:
 

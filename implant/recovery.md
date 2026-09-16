@@ -1,6 +1,8 @@
 This next block implements the Core Backup, State Recovery & Redundancy Layer. It is written as a unified Markdown document (recovery.md) designed for an assistant AI or a symbolic memory layer to capture snapshots of volatile environment states, verify system archive checkpoints, restore pipeline routing, and synchronize ledger balances.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\recovery\
 ├── recovery.md                 <- Core Recovery Manifest & Fault-Tolerance Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\recovery\
 └── hot_reload.js               <- Real-Time Pipeline Swap & Re-Initialization Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 recovery_bounds.json
+```
 
 {
   "SYMBOLIC\\recovery_bounds": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\recovery\
   }
 }
 
+```
 ## 📄 state_snapshot.c
+```
 
 /* ============================================================================
  * FILE     : state_snapshot.c
@@ -61,7 +67,9 @@ SYMBOLIC\NEXUS\implant\recovery\
     return result;
 }
 
+```
 ## 📄 crc32_verify.asm
+```
 
 ; =============================================================================
 ; FILE     : crc32_verify.asm
@@ -92,7 +100,9 @@ ChecksumFaultHalt:
 CalculateBlockCrc32 ENDP
 END
 
+```
 ## 📄 ledger_sync.php
+```
 
 <?php
 /* ============================================================================
@@ -124,7 +134,9 @@ class LedgerSync {
     }
 }
 
+```
 ## 📄 hot_reload.js
+```
 
 // ============================================================================// FILE     : hot_reload.js// [AVIS-CMT-RECOVERY]: REAL-TIME_PIPELINE_SWAP_AND_RE-INITIALIZATION_LOOPS// ============================================================================
 class HotReloadManager {
@@ -156,9 +168,13 @@ class HotReloadManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Integration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab document data block file as recovery.md inside your symbolic directory folder layout matrix architecture directly beside your performance diagnostics layout blocks.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to mount the state recovery and fault tolerance links instantly:
 
 {
@@ -169,7 +185,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to mount
   }
 }
 
+```
 ## ⚡ Step 3: Run the Redundancy Checkpoint Integration Test
+```
 The simulation logic engine triggers inline cyclic hardware validation sweeps via crc32_verify.asm, manages data persistence structures to hard disk storage channels through state_snapshot.c, and leverages hot_reload.js to execute memory context transformations without dropping system processing loops or losing tracking context frames.
 The system backup and state recovery component architecture is fully implemented. Let me know:
 

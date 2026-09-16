@@ -1,6 +1,8 @@
 This next block implements the Core AI Memory Consolidation & Context Compression Architecture. It is written as a unified Markdown document (memory.md) designed for an assistant AI or a symbolic memory layer to optimize long-term semantic storage networks, handle text vectorization slicing, enforce strict context boundaries, and purge decaying retention frames to save token overhead.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\memory\
 ├── memory.md                   <- Core Memory Manifest & Token Optimization Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\memory\
 └── retention_hud.js            <- Context Ceiling Tracking & Active Weight HUD Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 retention_bounds.json
+```
 
 {
   "SYMBOLIC\\retention_decay_intervals": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\memory\
   }
 }
 
+```
 ## 📄 neural_compressor.c
+```
 
 /* ============================================================================
  * FILE     : neural_compressor.c
@@ -63,7 +69,9 @@ SYMBOLIC\NEXUS\implant\memory\
     return writeIdx;
 }
 
+```
 ## 📄 vector_slice.asm
+```
 
 ; =============================================================================
 ; FILE     : vector_slice.asm
@@ -92,7 +100,9 @@ VectorFaultHalt:
 ComputeScalarDistance ENDP
 END
 
+```
 ## 📄 embedding_relay.php
+```
 
 <?php
 /* ============================================================================
@@ -126,7 +136,9 @@ class EmbeddingRelay {
     }
 }
 
+```
 ## 📄 retention_hud.js
+```
 
 // ============================================================================// FILE     : retention_hud.js// [AVIS-CMT-MEMORY]: CONTEXT_CEILING_TRACKING_AND_ACTIVE_WEIGHT_HUD_LOOPS// ============================================================================
 class RetentionHudManager {
@@ -156,9 +168,13 @@ class RetentionHudManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Ingestion & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab block document data as memory.md inside your symbolic directory folder layout structure right next to your physical hardware interface modules.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the token optimization parameters instantly:
 
 {
@@ -169,7 +185,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Context Capacity Compression Test
+```
 The simulation logic engine triggers floating-point distance comparisons via vector_slice.asm, performs high-velocity buffer optimization sweeps through neural_compressor.c, and mounts long-term text parsing routines via embedding_relay.php to secure the global system memory boundaries.
 The memory consolidation subsystem layer layout is complete. Let me know:
 

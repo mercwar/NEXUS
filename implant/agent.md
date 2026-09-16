@@ -1,6 +1,8 @@
 This next block implements the Autonomous Query Synthesis & Internet Crawling Agent Engine. It is written as a unified Markdown document (agent.md) designed for an assistant AI or a symbolic memory layer to process background task workers, query external databases, map vector indexes, and parse web contents back into the local telemetry corridors.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\agent\
 ├── agent.md                    <- Core Agent Manifest & Symbolic Scanning Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\agent\
 └── internet_crawler.js         <- Recursive Web Graph Query Extraction Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 prompt_template.json
+```
 
 {
   "SYMBOLIC\\agent_persona": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\agent\
   }
 }
 
+```
 ## 📄 task_scheduler.c
+```
 
 /* ============================================================================
  * FILE     : task_scheduler.c
@@ -57,7 +63,9 @@ typedef struct {
     return TARGET_FLAG_META;
 }
 
+```
 ## 📄 memory_align.asm
+```
 
 ; =============================================================================
 ; FILE     : memory_align.asm
@@ -75,7 +83,9 @@ NormalizeVectorRegisters PROC
 NormalizeVectorRegisters ENDP
 END
 
+```
 ## 📄 agent_parser.php
+```
 
 <?php
 /* ============================================================================
@@ -103,7 +113,9 @@ class AgentParser {
     }
 }
 
+```
 ## 📄 internet_crawler.js
+```
 
 // ============================================================================// FILE     : internet_crawler.js// [AVIS-CMT-AGENT]: RECURSIVE_WEB_GRAPH_QUERY_EXTRACTION_LOOPS// ============================================================================
 class AutonomousInternetCrawler {
@@ -139,9 +151,13 @@ class AutonomousInternetCrawler {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Configuration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab block as agent.md inside your local folder matrix architecture alongside the primary network systems.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor or assistant AI to mount the intelligent crawler loops instantly:
 
 {
@@ -152,7 +168,9 @@ Instruct the internal symbolic tracking processor or assistant AI to mount the i
   }
 }
 
+```
 ## ⚡ Step 3: Run the Autonomous Background Worker Sweep
+```
 The emulation framework initiates background execution pipelines through task_scheduler.c, structures high-speed register spaces via memory_align.asm, and boots up internet_crawler.js to scan external data coordinates and feed filtered text payloads straight back into your dashboard logs.
 The autonomous agent intelligence core is fully structured. Let me know:
 

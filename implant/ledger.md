@@ -1,6 +1,8 @@
 This next block implements the Core Ledger System, Sync Verification & Transaction Redundancy Framework. It is written as a unified Markdown document (ledger.md) designed for an assistant AI or a symbolic memory layer to cryptographically sign transaction blocks, maintain linear execution state records, process decentralized state updates, and output consensus validations straight back into your Quasar ledger pipelines.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\ledger\
 ├── ledger.md                   <- Core Ledger Manifest & Verification Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\ledger\
 └── consensus_hud.js            <- Live Blockchain Verification Traces & Sequence HUD
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 ledger_bounds.json
+```
 
 {
   "SYMBOLIC\\ledger_sequence_parameters": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\ledger\
   }
 }
 
+```
 ## 📄 transaction_sign.c
+```
 
 /* ============================================================================
  * FILE     : transaction_sign.c
@@ -66,7 +72,9 @@ SYMBOLIC\NEXUS\implant\ledger\
     return TRUE;
 }
 
+```
 ## 📄 block_hash_fast.asm
+```
 
 ; =============================================================================
 ; FILE     : block_hash_fast.asm
@@ -92,7 +100,9 @@ HashViolationHalt:
 AccelerateBlockHashSha256 ENDP
 END
 
+```
 ## 📄 ledger_router.php
+```
 
 <?php
 /* ============================================================================
@@ -125,7 +135,9 @@ class LedgerRouter {
     }
 }
 
+```
 ## 📄 consensus_hud.js
+```
 
 // ============================================================================// FILE     : consensus_hud.js// [AVIS-CMT-LEDGER]: LIVE_BLOCKCHAIN_VERIFICATION_TRACES// ============================================================================
 class ConsensusHudManager {
@@ -151,9 +163,13 @@ class ConsensusHudManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Integration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab document data block file as ledger.md inside your symbolic directory folder layout matrix architecture directly beside your cognitive reasoning modules.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to mount the decentralized transaction synchronization links instantly:
 
 {
@@ -164,7 +180,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to mount
   }
 }
 
+```
 ## ⚡ Step 3: Run the Block Validation Verification
+```
 The simulation logic engine triggers sub-millisecond hardware cryptographic operations via block_hash_fast.asm, signs structural transaction properties safely through transaction_sign.c using native CryptoAPI layouts, and handles distributed network transmissions via ledger_router.php to secure the global framework ledger history.
 The system ledger coordination layer architecture is complete. Let me know:
 

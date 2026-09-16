@@ -1,6 +1,8 @@
 This next block implements the Core Hardware Interfacing & Hardware Abstract Vector Engine. It is written as a unified Markdown document (hardware.md) designed for an assistant AI or a symbolic memory layer to interface directly with low-level peripheral controllers, regulate machine bus architectures, process asynchronous interrupt vectors, and monitor system sensor arrays.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\hardware\
 ├── hardware.md                 <- Core Hardware Manifest & Peripheral Control Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\hardware\
 └── sensory_hud.js              <- Device Diagnostic Status Visual Mapping Loops
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 bus_matrix.json
+```
 
 {
   "SYMBOLIC\\hardware_bus_matrix": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\hardware\
   }
 }
 
+```
 ## 📄 device_link.c
+```
 
 /* ============================================================================
  * FILE     : device_link.c
@@ -57,7 +63,9 @@ SYMBOLIC\NEXUS\implant\hardware\
     return TRUE;
 }
 
+```
 ## 📄 port_io.asm
+```
 
 ; =============================================================================
 ; FILE     : port_io.asm
@@ -84,7 +92,9 @@ FaultHalt:
 ReadHardwareBusPort ENDP
 END
 
+```
 ## 📄 serial_relay.php
+```
 
 <?php
 /* ============================================================================
@@ -116,7 +126,9 @@ class SerialRelay {
     }
 }
 
+```
 ## 📄 sensory_hud.js
+```
 
 // ============================================================================// FILE     : sensory_hud.js// [AVIS-CMT-HARDWARE]: DEVICE_DIAGNOSTIC_STATUS_VISUAL_MAPPING_LOOPS// ============================================================================
 class SensoryHudManager {
@@ -142,9 +154,13 @@ class SensoryHudManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Synchronization & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab document data block as hardware.md inside your symbolic directory structural directory layer next to your kernel processing units.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the physical subsystem handling lines instantly:
 
 {
@@ -155,7 +171,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Bus Matrix Diagnostics Sweep
+```
 The simulation validation engine triggers peripheral port access queries via port_io.asm, instantiates class handle checks through device_link.c using Win32 API structures, and activates sensory_hud.js to continuously stream diagnostic hardware updates directly back onto the dashboard UI tracking fields.
 The hardware abstraction component layer is complete. Let me know:
 

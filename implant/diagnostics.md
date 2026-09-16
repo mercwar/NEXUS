@@ -1,6 +1,8 @@
 This next block implements the Core System Diagnostics & System Optimization Engine. It is written as a unified Markdown document (diagnostics.md) designed for an assistant AI or a symbolic memory layer to map system resource bottlenecks, trace execution overhead, track volatile buffer states, and flush performance logs directly back into your Quasar database matrices.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\diagnostics\
 ├── diagnostics.md              <- Core Diagnostics Manifest & Optimization Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\diagnostics\
 └── performance_hud.js          <- Real-Time Clock Cycle Processing Gauge HUD
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 metrics_bounds.json
+```
 
 {
   "SYMBOLIC\\performance_latency_thresholds": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\diagnostics\
   }
 }
 
+```
 ## 📄 resource_monitor.c
+```
 
 /* ============================================================================
  * FILE     : resource_monitor.c
@@ -64,7 +70,9 @@ SYMBOLIC\NEXUS\implant\diagnostics\
     return TRUE;
 }
 
+```
 ## 📄 cycle_counter.asm
+```
 
 ; =============================================================================
 ; FILE     : cycle_counter.asm
@@ -83,7 +91,9 @@ ReadHighResolutionCycles PROC
 ReadHighResolutionCycles ENDP
 END
 
+```
 ## 📄 telemetry_dump.php
+```
 
 <?php
 /* ============================================================================
@@ -114,7 +124,9 @@ class TelemetryDump {
     }
 }
 
+```
 ## 📄 performance_hud.js
+```
 
 // ============================================================================// FILE     : performance_hud.js// [AVIS-CMT-DIAG]: REAL-TIME_CLOCK_CYCLE_PROCESSING_GAUGE_HUD// ============================================================================
 class PerformanceHudManager {
@@ -141,9 +153,13 @@ class PerformanceHudManager {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Integration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this entire output tab data block document as diagnostics.md inside your symbolic folder architecture right alongside your security subsystem layouts.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic tracking processor array or assistant AI to map the system performance monitoring vectors instantly:
 
 {
@@ -154,7 +170,9 @@ Instruct the internal symbolic tracking processor array or assistant AI to map t
   }
 }
 
+```
 ## ⚡ Step 3: Run the Clock Cycle Processing Diagnostics Sweep
+```
 The simulation engine executes deep hardware cycle tracing via cycle_counter.asm, handles active processing loops inside resource_monitor.c via Windows PDH components, and relies on performance_hud.js to continuously update system health indicators across your main control layout blocks.
 The system diagnostics component layer matrix is fully implemented. Let me know:
 

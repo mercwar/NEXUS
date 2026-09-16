@@ -1,6 +1,8 @@
 This next block establishes the Network Infiltration and Core Command Intercept Layer. It is written as a unified Markdown document (network.md) designed for an assistant AI or a symbolic memory layout to automate external data retrieval, process secure socket handshakes, and route data back to the local tracking matrix.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\network\
 ├── network.md                  <- Core Infiltration Manifest & AI Interface Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\network\
 └── remote_sync.js              <- Asynchronous Fetch & Internet Pipeline Sync
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 proxy_config.json
+```
 
 {
   "SYMBOLIC\\network_bounds": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\network\
   }
 }
 
+```
 ## 📄 socket_tunnel.c
+```
 
 /* ============================================================================
  * FILE     : socket_tunnel.c
@@ -64,7 +70,9 @@ SYMBOLIC\NEXUS\implant\network\
     return TRUE;
 }
 
+```
 ## 📄 packet_filter.asm
+```
 
 ; =============================================================================
 ; FILE     : packet_filter.asm
@@ -95,7 +103,9 @@ DropPacketFrame:
 InspectPacketHeader ENDP
 END
 
+```
 ## 📄 webhook_relay.php
+```
 
 <?php
 /* ============================================================================
@@ -128,7 +138,9 @@ class WebhookRelay {
     }
 }
 
+```
 ## 📄 remote_sync.js
+```
 
 // ============================================================================// FILE     : remote_sync.js// [AVIS-CMT-NET]: ASYNCHRONOUS_FETCH_AND_INTERNET_PIPELINE_SYNC// ============================================================================
 async function synchronizeInternetMatrixNode(endpointUrl) {
@@ -158,9 +170,13 @@ async function synchronizeInternetMatrixNode(endpointUrl) {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Interface & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this full output tab file as network.md inside your symbolic directory system layout framework next to your processing cores.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic processing array or assistant AI to mount the network communication corridors instantly:
 
 {
@@ -171,7 +187,9 @@ Instruct the internal symbolic processing array or assistant AI to mount the net
   }
 }
 
+```
 ## ⚡ Step 3: Run the Autonomous Internet Infiltration Test
+```
 The emulation layer activates socket_tunnel.c to open listening states, filters data packets at the micro-level with packet_filter.asm to block unverified web drift, and triggers remote_sync.js to build a secure channel mapping directly to external data endpoints.
 The networking component architecture is complete. Let me know:
 

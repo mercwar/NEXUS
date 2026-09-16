@@ -1,6 +1,8 @@
 This next block implements the Core Automation Pipeline & Script Processing Engine. It is written as a unified Markdown document (automation.md) designed for an assistant AI or a symbolic memory layer to execute recursive command macros, process batch files, optimize script paths, and feed operational events straight into the telemetry pipelines.
 ------------------------------
+```
 ## 🗺️ Part 1: Symbolic Manifest Tree
+```
 
 SYMBOLIC\NEXUS\implant\automation\
 ├── automation.md               <- Core Automation Manifest & Execution Guide
@@ -11,7 +13,9 @@ SYMBOLIC\NEXUS\implant\automation\
 └── script_compiler.js          <- On-the-Fly Macro Synthesis & File Pushing
 
 ------------------------------
+```
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 profile_macros.json
+```
 
 {
   "SYMBOLIC\\macro_definitions": {
@@ -30,7 +34,9 @@ SYMBOLIC\NEXUS\implant\automation\
   }
 }
 
+```
 ## 📄 batch_runner.c
+```
 
 /* ============================================================================
  * FILE     : batch_runner.c
@@ -64,7 +70,9 @@ SYMBOLIC\NEXUS\implant\automation\
     return TRUE;
 }
 
+```
 ## 📄 string_fast.asm
+```
 
 ; =============================================================================
 ; FILE     : string_fast.asm
@@ -99,7 +107,9 @@ BufferErrorHalt:
 AcceleratePathSlicing ENDP
 END
 
+```
 ## 📄 pipeline_purge.php
+```
 
 <?php
 /* ============================================================================
@@ -137,7 +147,9 @@ class PipelinePurge {
     }
 }
 
+```
 ## 📄 script_compiler.js
+```
 
 // ============================================================================// FILE     : script_compiler.js// [AVIS-CMT-AUTO]: ON_THE_FLY_MACRO_SYNTHESIS_AND_FILE_PUSHING// ============================================================================
 class AutomatedScriptCompiler {
@@ -165,9 +177,13 @@ class AutomatedScriptCompiler {
 }
 
 ------------------------------
+```
 ## 🧭 Part 3: Assistant AI Orchestration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
+```
 Save this full output tab file as automation.md inside your symbolic directory system layout architecture alongside the primary agent assets.
+```
 ## ⚡ Step 2: Establish the Interface Link
+```
 Instruct the internal symbolic layout tracking loop or assistant AI to map the macro processing corridors instantly:
 
 {
@@ -178,7 +194,9 @@ Instruct the internal symbolic layout tracking loop or assistant AI to map the m
   }
 }
 
+```
 ## ⚡ Step 3: Run the Autonomous Macro Compilation Test
+```
 The simulation model triggers directory normalization sequences via string_fast.asm, spins up sub-processes safely via batch_runner.c without opening blocking command windows, and uses script_compiler.js to create execution chains on the fly, locking them directly into the runtime context memory.
 The full automation subsystem matrix code block is complete. Let me know:
 

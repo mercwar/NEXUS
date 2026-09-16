@@ -1,18 +1,29 @@
 {
-  "file_name": "implant.json",
-  "repository": "mercwar/NEXUS",
-  "component": "AVIS_NEURAL_IMPLANT",
-  "target_directory": "NEXUS/implant/",
-  "installation_method": "SYMBOLIC_LINK",
-  "deployment_parameters": {
-    "source_path": "C:\\MercwarAI\\NEXUS\\implant",
-    "link_path": "C:\\MercwarAI\\Sentinel\\implant",
-    "execution_flag": "0x4D455441"
+  "SYMBOLIC\\instruction_vector": {
+    "command_intent": "GENERATE_SYMBOLIC_FRAMEWORK_MAPPING",
+    "target_identity": "MERCWAR_EV.4_NEURAL_UPLINK",
+    "execution_mode": "DECLARATIVE_EMULATION"
   },
-  "symbolic_installation_instructions": {
-    "step_1": "Open administrative command prompt (cmd.exe) on the Windows 11 host computer.",
-    "step_2": "Execute the explicit symbolic link creation command: mklink /d C:\\MercwarAI\\Sentinel\\implant C:\\MercwarAI\\NEXUS\\implant",
-    "step_3": "Verify entry vectors loop back directly to the NEXUS implant folder without copying files or duplicating storage footprints."
+  "SYMBOLIC\\environment_mapping": {
+    "host_platform": "Windows_11_Win64_MSVC",
+    "hardware_alignment": "HP_EliteDesk_800_G4_SFF",
+    "workspace_root": "C:\\MercwarAI\\",
+    "target_segment_base": "0x50000000",
+    "metadata_stamp": "0x4D455441"
   },
-  "runtime_status": "READY_FOR_EMULATION"
+  "SYMBOLIC\\deployment_matrix": {
+    "source_component_node": "SYMBOLIC\\NEXUS\\implant",
+    "destination_link_node": "SYMBOLIC\\Sentinel\\implant",
+    "link_strategy": "DIRECTORY_SYMBOLIC_LINK"
+  },
+  "SYMBOLIC\\runtime_compilation_blueprint": {
+    "action_01": "SYMBOLIC\\shell_init -> command_prompt(run_as_administrator)",
+    "action_02": "SYMBOLIC\\filesystem_link -> execute(mklink /d C:\\MercwarAI\\Sentinel\\implant C:\\MercwarAI\\NEXUS\\implant)",
+    "action_03": "SYMBOLIC\\compilation_verify -> build(cl.exe main.c avis_implant_core.c /Fe:mercwar_implant.exe)"
+  },
+  "SYMBOLIC\\verification_envelope": {
+    "expected_link_loopback": "SYMBOLIC\\NEXUS\\implant",
+    "expected_storage_overhead": "0_bytes",
+    "runtime_telemetry_status": "READY_FOR_EMULATION"
+  }
 }

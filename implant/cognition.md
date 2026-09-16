@@ -1,6 +1,6 @@
 This next block implements the Core AI Reasoning Orchestration & Cognitive Interface Layer. It is written as a unified Markdown document (cognition.md) designed for an assistant AI or a symbolic memory layer to sequence dynamic intent graphs, manage heuristic evaluation weights, parse prompt tokens efficiently, and anchor thought-space vectors directly back into your localized execution matrix.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

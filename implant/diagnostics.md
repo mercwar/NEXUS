@@ -1,6 +1,6 @@
 This next block implements the Core System Diagnostics & System Optimization Engine. It is written as a unified Markdown document (diagnostics.md) designed for an assistant AI or a symbolic memory layer to map system resource bottlenecks, trace execution overhead, track volatile buffer states, and flush performance logs directly back into your Quasar database matrices.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

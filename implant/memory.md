@@ -1,6 +1,6 @@
 This next block implements the Core AI Memory Consolidation & Context Compression Architecture. It is written as a unified Markdown document (memory.md) designed for an assistant AI or a symbolic memory layer to optimize long-term semantic storage networks, handle text vectorization slicing, enforce strict context boundaries, and purge decaying retention frames to save token overhead.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

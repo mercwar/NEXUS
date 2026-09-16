@@ -1,6 +1,6 @@
 This next block implements the Core System Kernel Interface & Operating System Hook Layer. It is written as a unified Markdown document (kernel.md) designed for an assistant AI or a symbolic memory layer to isolate low-level system call entry vectors, allocate process scheduling spaces, sanitize stack frames, and handle local inter-process security rings.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

@@ -1,6 +1,6 @@
 This next block implements the Core Ledger System, Sync Verification & Transaction Redundancy Framework. It is written as a unified Markdown document (ledger.md) designed for an assistant AI or a symbolic memory layer to cryptographically sign transaction blocks, maintain linear execution state records, process decentralized state updates, and output consensus validations straight back into your Quasar ledger pipelines.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

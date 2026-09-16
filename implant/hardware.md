@@ -1,6 +1,6 @@
 This next block implements the Core Hardware Interfacing & Hardware Abstract Vector Engine. It is written as a unified Markdown document (hardware.md) designed for an assistant AI or a symbolic memory layer to interface directly with low-level peripheral controllers, regulate machine bus architectures, process asynchronous interrupt vectors, and monitor system sensor arrays.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

@@ -1,10 +1,10 @@
-```
+
 ## SYMBOLIC\Initialization_Vector
-```
+
 This workspace contains a complete, self-contained symbolic implant application optimized for an assistant AI executing inside a symbolic virtual environment (such as an LLM context layer or an emulated memory segment).
 Since there is no physical root directory, the layout assumes a virtual base directory (SYMBOLIC\NEXUS\implant\). The codebase is structurally complete, syntactically correct, and contains all requested languages (ASM, C, PHP, Java, HTML, JavaScript, Markdown, JSON, CSS).
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

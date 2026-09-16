@@ -1,6 +1,6 @@
 This next block implements the Core Automation Pipeline & Script Processing Engine. It is written as a unified Markdown document (automation.md) designed for an assistant AI or a symbolic memory layer to execute recursive command macros, process batch files, optimize script paths, and feed operational events straight into the telemetry pipelines.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

@@ -1,6 +1,6 @@
 This next block builds the direct runtime tracking engine. It is written as a unified Markdown document (monitor.md) designed to be parsed directly by an assistant AI or placed on a virtual drive to monitor execution states, look up system constraints, and handle data synchronization routes.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

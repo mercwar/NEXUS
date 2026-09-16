@@ -1,6 +1,6 @@
 This next block establishes the Network Infiltration and Core Command Intercept Layer. It is written as a unified Markdown document (network.md) designed for an assistant AI or a symbolic memory layout to automate external data retrieval, process secure socket handshakes, and route data back to the local tracking matrix.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

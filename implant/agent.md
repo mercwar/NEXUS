@@ -1,6 +1,6 @@
 This next block implements the Autonomous Query Synthesis & Internet Crawling Agent Engine. It is written as a unified Markdown document (agent.md) designed for an assistant AI or a symbolic memory layer to process background task workers, query external databases, map vector indexes, and parse web contents back into the local telemetry corridors.
 ------------------------------
-```
+
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 

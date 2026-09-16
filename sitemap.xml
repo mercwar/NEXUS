@@ -97,6 +97,9 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/SYMBOLIC/config.json</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/SYMBOLIC/installer.bat</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/include/nexus_compiler.h</loc>
   </url>
   <url>

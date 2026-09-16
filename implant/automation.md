@@ -1,7 +1,7 @@
 This next block implements the Core Automation Pipeline & Script Processing Engine. It is written as a unified Markdown document (automation.md) designed for an assistant AI or a symbolic memory layer to execute recursive command macros, process batch files, optimize script paths, and feed operational events straight into the telemetry pipelines.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
+```
 SYMBOLIC\NEXUS\implant\automation\
 ├── automation.md               <- Core Automation Manifest & Execution Guide
 ├── profile_macros.json         <- Command Shortcuts & Sequence Triggers
@@ -9,10 +9,10 @@ SYMBOLIC\NEXUS\implant\automation\
 ├── string_fast.asm             <- High-Speed Path Buffer String Slicing (x64)
 ├── pipeline_purge.php          <- Environment Cache Stripper & Temp Flush
 └── script_compiler.js          <- On-the-Fly Macro Synthesis & File Pushing
-
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 profile_macros.json
-
+```
 {
   "SYMBOLIC\\macro_definitions": {
     "sys_init": "cl.exe main.c avis_implant_core.c /Fe:mercwar_implant.exe",
@@ -29,9 +29,9 @@ SYMBOLIC\NEXUS\implant\automation\
     "on_telemetry_overflow": ["pipeline_sync"]
   }
 }
-
+```
 ## 📄 batch_runner.c
-
+```
 /* ============================================================================
  * FILE     : batch_runner.c
  * [AVIS-CMT-LOGIC]: WIN32_PROCESS_STRING_INGESTION
@@ -63,9 +63,9 @@ SYMBOLIC\NEXUS\implant\automation\
     CloseHandle(pi.hThread);
     return TRUE;
 }
-
+```
 ## 📄 string_fast.asm
-
+```
 ; =============================================================================
 ; FILE     : string_fast.asm
 ; [AVIS-CMT-LOGIC]: HIGH_SPEED_PATH_BUFFER_STRING_SLICING
@@ -98,9 +98,9 @@ BufferErrorHalt:
     ret
 AcceleratePathSlicing ENDP
 END
-
+```
 ## 📄 pipeline_purge.php
-
+```
 <?php
 /* ============================================================================
  * FILE     : pipeline_purge.php
@@ -136,9 +136,9 @@ class PipelinePurge {
         return $purgedCount;
     }
 }
-
+```
 ## 📄 script_compiler.js
-
+```
 // ============================================================================// FILE     : script_compiler.js// [AVIS-CMT-AUTO]: ON_THE_FLY_MACRO_SYNTHESIS_AND_FILE_PUSHING// ============================================================================
 class AutomatedScriptCompiler {
     constructor() {
@@ -163,13 +163,13 @@ class AutomatedScriptCompiler {
         return temporaryUrl;
     }
 }
-
+```
 ------------------------------
 ## 🧭 Part 3: Assistant AI Orchestration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
 Save this full output tab file as automation.md inside your symbolic directory system layout architecture alongside the primary agent assets.
 ## ⚡ Step 2: Establish the Interface Link
 Instruct the internal symbolic layout tracking loop or assistant AI to map the macro processing corridors instantly:
-
+```
 {
   "SYMBOLIC\\installer_command": {
     "shell": "cmd.exe",
@@ -177,7 +177,7 @@ Instruct the internal symbolic layout tracking loop or assistant AI to map the m
     "outcome": "AUTOMATION_MACRO_PIPELINES_ACTIVE"
   }
 }
-
+```
 ## ⚡ Step 3: Run the Autonomous Macro Compilation Test
 The simulation model triggers directory normalization sequences via string_fast.asm, spins up sub-processes safely via batch_runner.c without opening blocking command windows, and uses script_compiler.js to create execution chains on the fly, locking them directly into the runtime context memory.
 The full automation subsystem matrix code block is complete. Let me know:

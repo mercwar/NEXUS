@@ -1,0 +1,18 @@
+{
+  "file_name": "implant.json",
+  "repository": "mercwar/NEXUS",
+  "component": "AVIS_NEURAL_IMPLANT",
+  "target_directory": "NEXUS/implant/",
+  "installation_method": "SYMBOLIC_LINK",
+  "deployment_parameters": {
+    "source_path": "C:\\MercwarAI\\NEXUS\\implant",
+    "link_path": "C:\\MercwarAI\\Sentinel\\implant",
+    "execution_flag": "0x4D455441"
+  },
+  "symbolic_installation_instructions": {
+    "step_1": "Open administrative command prompt (cmd.exe) on the Windows 11 host computer.",
+    "step_2": "Execute the explicit symbolic link creation command: mklink /d C:\\MercwarAI\\Sentinel\\implant C:\\MercwarAI\\NEXUS\\implant",
+    "step_3": "Verify entry vectors loop back directly to the NEXUS implant folder without copying files or duplicating storage footprints."
+  },
+  "runtime_status": "READY_FOR_EMULATION"
+}

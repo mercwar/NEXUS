@@ -1,7 +1,9 @@
 This next block implements the Autonomous Query Synthesis & Internet Crawling Agent Engine. It is written as a unified Markdown document (agent.md) designed for an assistant AI or a symbolic memory layer to process background task workers, query external databases, map vector indexes, and parse web contents back into the local telemetry corridors.
-------------------------------
-## 🗺️ Part 1: Symbolic Manifest Tree
 
+------------------------------
+
+## 🗺️ Part 1: Symbolic Manifest Tree
+```
 SYMBOLIC\NEXUS\implant\agent\
 ├── agent.md                    <- Core Agent Manifest & Symbolic Scanning Guide
 ├── prompt_template.json        <- System Prompt Anchors & Optimization Weights
@@ -9,10 +11,10 @@ SYMBOLIC\NEXUS\implant\agent\
 ├── memory_align.asm            <- Vector Array Core Register Normalization (x64)
 ├── agent_parser.php            <- Content Scraper & Token Filter Framework
 └── internet_crawler.js         <- Recursive Web Graph Query Extraction Loops
-
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 prompt_template.json
-
+```
 {
   "SYMBOLIC\\agent_persona": {
     "system_anchor": "You are the MERCWAR EV.4 Core Neural Autonomous Interface. You navigate local directories and the web seamlessly.",
@@ -29,9 +31,9 @@ SYMBOLIC\NEXUS\implant\agent\
     "web_crawling": "Extract engineering targets and compile dependency graphs"
   }
 }
-
+```
 ## 📄 task_scheduler.c
-
+```
 /* ============================================================================
  * FILE     : task_scheduler.c
  * [AVIS-CMT-LOGIC]: WIN32_THREAD_ALLOCATION_AND_TASK_QUEUE
@@ -56,9 +58,9 @@ typedef struct {
     OutputDebugStringA(trackingMessage);
     return TARGET_FLAG_META;
 }
-
+```
 ## 📄 memory_align.asm
-
+```
 ; =============================================================================
 ; FILE     : memory_align.asm
 ; [AVIS-CMT-LOGIC]: VECTOR_ARRAY_CORE_REGISTER_NORMALIZATION
@@ -74,9 +76,9 @@ NormalizeVectorRegisters PROC
     ret
 NormalizeVectorRegisters ENDP
 END
-
+```
 ## 📄 agent_parser.php
-
+```
 <?php
 /* ============================================================================
  * FILE     : agent_parser.php
@@ -102,9 +104,9 @@ class AgentParser {
         return trim($cleanText);
     }
 }
-
+```
 ## 📄 internet_crawler.js
-
+```
 // ============================================================================// FILE     : internet_crawler.js// [AVIS-CMT-AGENT]: RECURSIVE_WEB_GRAPH_QUERY_EXTRACTION_LOOPS// ============================================================================
 class AutonomousInternetCrawler {
     constructor(maxDepth = 3) {
@@ -137,13 +139,13 @@ class AutonomousInternetCrawler {
         }
     }
 }
-
+```
 ------------------------------
 ## 🧭 Part 3: Assistant AI Configuration & Symbolic Instructions## ⚡ Step 1: Save the Framework Node File
 Save this entire output tab block as agent.md inside your local folder matrix architecture alongside the primary network systems.
 ## ⚡ Step 2: Establish the Interface Link
 Instruct the internal symbolic tracking processor or assistant AI to mount the intelligent crawler loops instantly:
-
+```
 {
   "SYMBOLIC\\installer_command": {
     "shell": "cmd.exe",
@@ -151,7 +153,7 @@ Instruct the internal symbolic tracking processor or assistant AI to mount the i
     "outcome": "AUTONOMOUS_INTELLIGENCE_AGENTS_ONLINE"
   }
 }
-
+```
 ## ⚡ Step 3: Run the Autonomous Background Worker Sweep
 The emulation framework initiates background execution pipelines through task_scheduler.c, structures high-speed register spaces via memory_align.asm, and boots up internet_crawler.js to scan external data coordinates and feed filtered text payloads straight back into your dashboard logs.
 The autonomous agent intelligence core is fully structured. Let me know:

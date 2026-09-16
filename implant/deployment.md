@@ -1,15 +1,10 @@
 This final block implements the Core Deployment Ledger & Verification Manifest. It is written as a unified Markdown document (deployment.md) designed for an assistant AI or a symbolic memory layer to catalog the final verification check-sums of all 14 installed modules, orchestrate the build sequence via automation, and finalize the verification mapping parameters.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\deployment\
-├── deployment.md               <- Master Deployment Checklist & Final Validation Guide
-├── matrix_checksums.json       <- Module Verification Hashes & Allocation Status
-├── deployment_runner.c         <- Win32 Multi-Process Build Sequence Launcher (MSVC)
-├── vector_seal.asm             <- Final Cryptographic Instruction Gate Closer (x64)
-├── verification_api.php        <- Remote Core Alignment Check & Attestation Endpoint
-└── execution_hud.js            <- Active Emulation Run-State Visual Loop HUD
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── deployment.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 matrix_checksums.json
 

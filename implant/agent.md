@@ -4,13 +4,8 @@ This next block implements the Autonomous Query Synthesis & Internet Crawling Ag
 
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
-SYMBOLIC\NEXUS\implant\agent\
-├── agent.md                    <- Core Agent Manifest & Symbolic Scanning Guide
-├── prompt_template.json        <- System Prompt Anchors & Optimization Weights
-├── task_scheduler.c            <- Win32 Thread Allocation & Task Queue (MSVC)
-├── memory_align.asm            <- Vector Array Core Register Normalization (x64)
-├── agent_parser.php            <- Content Scraper & Token Filter Framework
-└── internet_crawler.js         <- Recursive Web Graph Query Extraction Loops
+SYMBOLIC\NEXUS\implant\automation\
+└── agent.md               <- Core Automation Manifest & Execution Guide
 ```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 prompt_template.json

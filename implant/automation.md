@@ -3,12 +3,7 @@ This next block implements the Core Automation Pipeline & Script Processing Engi
 ## 🗺️ Part 1: Symbolic Manifest Tree
 ```
 SYMBOLIC\NEXUS\implant\automation\
-├── automation.md               <- Core Automation Manifest & Execution Guide
-├── profile_macros.json         <- Command Shortcuts & Sequence Triggers
-├── batch_runner.c              <- Low-Level CreateProcess String Ingestion (MSVC)
-├── string_fast.asm             <- High-Speed Path Buffer String Slicing (x64)
-├── pipeline_purge.php          <- Environment Cache Stripper & Temp Flush
-└── script_compiler.js          <- On-the-Fly Macro Synthesis & File Pushing
+└── automation.md               <- Core Automation Manifest & Execution Guide
 ```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 profile_macros.json

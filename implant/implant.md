@@ -3,18 +3,10 @@ This workspace contains a complete, self-contained symbolic implant application 
 Since there is no physical root directory, the layout assumes a virtual base directory (SYMBOLIC\NEXUS\implant\). The codebase is structurally complete, syntactically correct, and contains all requested languages (ASM, C, PHP, Java, HTML, JavaScript, Markdown, JSON, CSS).
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\
-├── README.md                   <- Core Emulation Instructions & Manifest
-├── manifest.json               <- Environment Config & Resource Mapping
-├── gateway.php                 <- Ingestion Layer & HTTP Control Entry
-├── CoreEngine.java             <- Structural Logic & Routing Coordinator
-├── implant_bridge.c            <- Low-Level Memory Controller & Allocation
-├── context_mask.asm            <- Hardware Alignment & Register Verification
-├── UI_Workspace.html           <- Graphical Control Interface HUD
-├── interface_style.css         <- HUD Aesthetic Stylesheet
-└── interface_logic.js          <- Event Handling & Dynamic Navigation Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── implant.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 README.md
 

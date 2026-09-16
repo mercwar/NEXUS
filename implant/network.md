@@ -1,15 +1,10 @@
 This next block establishes the Network Infiltration and Core Command Intercept Layer. It is written as a unified Markdown document (network.md) designed for an assistant AI or a symbolic memory layout to automate external data retrieval, process secure socket handshakes, and route data back to the local tracking matrix.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\network\
-├── network.md                  <- Core Infiltration Manifest & AI Interface Guide
-├── proxy_config.json           <- Routing Tables & Protocol Bounds
-├── socket_tunnel.c             <- Low-Level Libcurl / WinSock Secure Tunnel (MSVC)
-├── packet_filter.asm           <- Network Frame Header Integrity Inspection (x64)
-├── webhook_relay.php           <- Web Endpoint Receiver & Ingestion Link
-└── remote_sync.js              <- Asynchronous Fetch & Internet Pipeline Sync
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── network.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 proxy_config.json
 

@@ -1,15 +1,10 @@
 This next block implements the Core Security & Self-Defense Subsystem. It is written as a unified Markdown document (security.md) designed for an assistant AI or a symbolic memory layer to establish threat detection matrices, trigger autonomous response actions, implement zero-trust access controls, and perform dynamic code integrity validation sweeps. [1, 2] 
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\security\
-├── security.md                 <- Core Security Manifest & Self-Defense Guide
-├── threat_matrix.json          <- Rule Definitions & Prompt Injection Signatures
-├── integrity_sweep.c           <- Win32 Memory Page Scanning & Anti-Tamper (MSVC)
-├── boundary_fence.asm          <- Low-Level Stack Frame Inspection Loops (x64)
-├── intercept_handler.php       <- Exception Logging API & Quarantine Controller
-└── real_time_audit.js          <- Intent Verification & Content Safety Filter
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── security.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 threat_matrix.json
 

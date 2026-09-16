@@ -1,15 +1,10 @@
 This next block implements the Core AI Reasoning Orchestration & Cognitive Interface Layer. It is written as a unified Markdown document (cognition.md) designed for an assistant AI or a symbolic memory layer to sequence dynamic intent graphs, manage heuristic evaluation weights, parse prompt tokens efficiently, and anchor thought-space vectors directly back into your localized execution matrix.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\cognition\
-├── cognition.md                <- Core Cognition Manifest & Logic Routing Guide
-├── cognitive_weights.json      <- Attention Modifiers & Meta-Prompt Constraints
-├── intent_router.c             <- Abstract Token Intent Discriminator Matrix (MSVC)
-├── heuristic_fast.asm          <- High-Speed Activation Floating-Point Scalar (x64)
-├── inference_sink.php          <- Asynchronous Request Pipeline & Prompt Ingestion
-└── consciousness_hud.js        <- Thought-Cycle Saliency Display & Token Budget HUD
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── cognition.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 cognitive_weights.json
 

@@ -1,15 +1,10 @@
 This next block implements the Core Operating System Emulation & Terminal Environment Shell. It is written as a unified Markdown document (shell.md) designed for an assistant AI or a symbolic memory layer to map administrative command utilities, interpret execution parameters, handle console formatting streams, and pipe interactive operations directly into your active runtime corridors.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\shell\
-├── shell.md                    <- Core Shell Manifest & Terminal Execution Guide
-├── shell_bounds.json           <- Environment Paths & Interactive Token Rules
-├── console_host.c              <- Win32 Pseudo-Console (ConPTY) Host Ingestion (MSVC)
-├── terminal_fast.asm           <- High-Speed Character Buffer Screen Blitting (x64)
-├── shell_router.php            <- Command Execution Handler & Path Translating API
-└── interaction_hud.js          <- Real-Time Command Pipeline & Interactive Prompt HUD
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── shell.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 shell_bounds.json
 

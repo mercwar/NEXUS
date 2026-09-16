@@ -1,15 +1,10 @@
 This next block implements the Core Hardware Interfacing & Hardware Abstract Vector Engine. It is written as a unified Markdown document (hardware.md) designed for an assistant AI or a symbolic memory layer to interface directly with low-level peripheral controllers, regulate machine bus architectures, process asynchronous interrupt vectors, and monitor system sensor arrays.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\hardware\
-├── hardware.md                 <- Core Hardware Manifest & Peripheral Control Guide
-├── bus_matrix.json             <- Device Access Vectors & Interrupt Lines
-├── device_link.c               <- Win32 SetupAPI Peripheral Device Enumerator (MSVC)
-├── port_io.asm                 <- Direct CPU Port I/O and Ring 0 Intercept Loops (x64)
-├── serial_relay.php            <- Hardware Com Port Controller & Stream Packer
-└── sensory_hud.js              <- Device Diagnostic Status Visual Mapping Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── hardware.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 bus_matrix.json
 

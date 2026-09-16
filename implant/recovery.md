@@ -1,15 +1,10 @@
 This next block implements the Core Backup, State Recovery & Redundancy Layer. It is written as a unified Markdown document (recovery.md) designed for an assistant AI or a symbolic memory layer to capture snapshots of volatile environment states, verify system archive checkpoints, restore pipeline routing, and synchronize ledger balances.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\recovery\
-├── recovery.md                 <- Core Recovery Manifest & Fault-Tolerance Guide
-├── recovery_bounds.json        <- Snapshot Intervals & Redundancy Thresholds
-├── state_snapshot.c            <- Win32 File Stream State Serialization Engine (MSVC)
-├── crc32_verify.asm            <- High-Speed Hardware CRC32 Block Checksum (x64)
-├── ledger_sync.php             <- Distributed State Ledger Sync & Validation API
-└── hot_reload.js               <- Real-Time Pipeline Swap & Re-Initialization Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── recovery.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 recovery_bounds.json
 

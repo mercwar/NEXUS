@@ -1,15 +1,10 @@
 This next block implements the Core Integration Router & Master Control Matrix. It is written as a unified Markdown document (integration.md) designed for an assistant AI or a symbolic memory layer to orchestrate task dependencies across all installed implant modules, verify system-wide validation flags, map global resource structures, and lock execution paths directly back into your workspace corridors.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\integration\
-├── integration.md              <- Master Integration Manifest & Coordination Guide
-├── global_registry.json        <- Subsystem Handle Registries & IPC Access Flags
-├── matrix_orchestrator.c       <- Multi-Module Thread Coordinator & Sync Hub (MSVC)
-├── vector_dispatch.asm         <- Accelerated Inter-Module Memory Bus Gateway (x64)
-├── router_uplink.php           <- Global State Sync Endpoint & Cross-Matrix Router
-└── coordination_hud.js         <- Unified Core Status HUD & Pipeline Activity Loop
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── integration.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 global_registry.json
 

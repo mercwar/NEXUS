@@ -1,15 +1,10 @@
 This next block implements the Core System Diagnostics & System Optimization Engine. It is written as a unified Markdown document (diagnostics.md) designed for an assistant AI or a symbolic memory layer to map system resource bottlenecks, trace execution overhead, track volatile buffer states, and flush performance logs directly back into your Quasar database matrices.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\diagnostics\
-├── diagnostics.md              <- Core Diagnostics Manifest & Optimization Guide
-├── metrics_bounds.json         <- Latency Thresholds & Core Allocations
-├── resource_monitor.c          <- Native Win32 Performance Counter Hook (MSVC)
-├── cycle_counter.asm           <- High-Speed CPU Time-Stamp Counter Loop (x64)
-├── telemetry_dump.php          <- Structured Log Ingestion API & Archive Router
-└── performance_hud.js          <- Real-Time Clock Cycle Processing Gauge HUD
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── diagnostics.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 metrics_bounds.json
 

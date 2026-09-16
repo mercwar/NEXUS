@@ -1,15 +1,10 @@
 This next block implements the Core System Kernel Interface & Operating System Hook Layer. It is written as a unified Markdown document (kernel.md) designed for an assistant AI or a symbolic memory layer to isolate low-level system call entry vectors, allocate process scheduling spaces, sanitize stack frames, and handle local inter-process security rings.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\kernel\
-├── kernel.md                   <- Core Kernel Manifest & Low-Level Navigation Guide
-├── system_rings.json           <- Access Privilege Thresholds & Process Fencing Limits
-├── kernel_hook.c               <- Win32 Native API Hooking & NT System Call Gate (MSVC)
-├── stack_purge.asm             <- High-Speed Volatile Thread Stack Frame Eraser (x64)
-├── process_route.php           <- Native Service Daemon Multiplexer & PID Tracker
-└── thread_poller.js            <- Asynchronous Microtask Thread State Polling Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── kernel.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 system_rings.json
 

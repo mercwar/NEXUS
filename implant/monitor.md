@@ -1,15 +1,10 @@
 This next block builds the direct runtime tracking engine. It is written as a unified Markdown document (monitor.md) designed to be parsed directly by an assistant AI or placed on a virtual drive to monitor execution states, look up system constraints, and handle data synchronization routes.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\monitor\
-├── monitor.md                  <- Core Monitoring Manifest & AI Ingestion Guide
-├── system_lookup.json          <- Hardware & Directory Structural Mappings
-├── registry_handler.c          <- Win32 Inter-Process Pipeline Hook (MSVC)
-├── process_alloc.asm           <- Thread Register Sanitization (x64)
-├── tracking_bridge.php         <- Time-Series Router & Quasar Serialization
-└── diagnostics.js              <- Real-Time Data Corridor Graphing Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── monitor.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 system_lookup.json
 

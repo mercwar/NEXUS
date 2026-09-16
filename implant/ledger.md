@@ -1,15 +1,10 @@
 This next block implements the Core Ledger System, Sync Verification & Transaction Redundancy Framework. It is written as a unified Markdown document (ledger.md) designed for an assistant AI or a symbolic memory layer to cryptographically sign transaction blocks, maintain linear execution state records, process decentralized state updates, and output consensus validations straight back into your Quasar ledger pipelines.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\ledger\
-├── ledger.md                   <- Core Ledger Manifest & Verification Guide
-├── ledger_bounds.json          <- Block Validation Thresholds & Sequence Rules
-├── transaction_sign.c          <- Win32 Native Cryptographic HMAC-SHA256 Signer (MSVC)
-├── block_hash_fast.asm         <- High-Speed Hardware SHA-256 Intrinsic Hashing (x64)
-├── ledger_router.php           <- Decentralized Event Router & State Consensus API
-└── consensus_hud.js            <- Live Blockchain Verification Traces & Sequence HUD
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── ledger.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 ledger_bounds.json
 

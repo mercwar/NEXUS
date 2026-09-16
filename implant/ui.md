@@ -1,15 +1,10 @@
 This next block implements the Core Graphical User Interface Layout & Dashboard Matrix Overrides. It is written as a unified Markdown document (ui.md) designed for an assistant AI or a symbolic memory layer to structure unified viewports, render real-time telemetry grid frames, enforce dark solid contrast styling, and track workspace visibility nodes.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\ui\
-├── ui.md                       <- Core UI Layout Manifest & Aesthetic Control Guide
-├── theme_presets.json          <- CSS Variable Thresholds & Geometric Layout Limits
-├── window_manager.c            <- Win32 Class Registration & Frame Hooks (MSVC)
-├── hardware_draw.asm           <- Low-Level Matrix Bit-Shift Font Processing (x64)
-├── theme_injector.php          <- Dynamic Layout String Interpolator & CSS Cache
-└── viewport_control.js         <- Interactive Modal Toggling & Switcher Event Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── ui.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 theme_presets.json
 

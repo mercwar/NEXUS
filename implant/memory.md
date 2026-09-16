@@ -1,15 +1,10 @@
 This next block implements the Core AI Memory Consolidation & Context Compression Architecture. It is written as a unified Markdown document (memory.md) designed for an assistant AI or a symbolic memory layer to optimize long-term semantic storage networks, handle text vectorization slicing, enforce strict context boundaries, and purge decaying retention frames to save token overhead.
 ------------------------------
 ## 🗺️ Part 1: Symbolic Manifest Tree
-
-SYMBOLIC\NEXUS\implant\memory\
-├── memory.md                   <- Core Memory Manifest & Token Optimization Guide
-├── retention_bounds.json       <- Decay Intervals & Vector Attention Coefficients
-├── neural_compressor.c         <- Run-Length Token Cluster Packer Engine (MSVC)
-├── vector_slice.asm            <- High-Speed Float-32 Distance Scalar Matrix (x64)
-├── embedding_relay.php         <- Semantic Tensor Router & Chunking Ingestion Layer
-└── retention_hud.js            <- Context Ceiling Tracking & Active Weight HUD Loops
-
+```
+SYMBOLIC\NEXUS\implant\automation\
+└── memory.md               <- Core Automation Manifest & Execution Guide
+```
 ------------------------------
 ## 🛠️ Part 2: The Symbolic Code Modules## 📄 retention_bounds.json
 

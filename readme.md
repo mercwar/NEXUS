@@ -5,6 +5,8 @@
 <img src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
 </a>
 
+
+
 ---
 # NEXUS AVIS-DATALAKE GATEWAY
 <a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
@@ -90,6 +92,12 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
 - Uplink the file when you’re ready.
 
 ## 🌐 Nexus Gateway
+
+<a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
+<img src="images/nex-ss2.png" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
+</a>
+
+
 - Go back to **NEXUS** and look for your files.  
 - Link your HTML files freely — **no login required**.  
 - Use **AJAX** to load your JavaScript and CSS from your own custom datalake files.
@@ -133,6 +141,10 @@ It’s built for speed, clarity, and visual immersion, letting you browse comple
 ---
 
 ## 🌌 What It Does
+
+<a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
+<img src="images/nex_rm.jpg" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
+</a>
 
 The **Cybernetic Emerald JSON Tree Browser** transforms dense data into a clean, glowing structure you can navigate visually.  
 Think of it as a **data explorer** — not a developer tool — where every folder, file, and node is displayed in a smooth, dark‑mode environment.

@@ -73,6 +73,10 @@ The **NEXUS AVIS‑DataLake Gateway** is a dark‑mode JSON tree browser with a 
 
 # AVIS‑DATALAKE — Linking Files and Publishing with GitHub Pages
 
+<a target="_self" title="Enter the Gateway Free" href="https://cron.iblogger.org/NEXUS">
+<img src="images/nx-ss.png" alt="Mercwar Constellation" style="width:100%; height:auto;"/>
+</a>
+
 ## 🔍 Locate Your Files
 1. Look for your **AVIS‑DATALAKE files** or files from another GitHub repository.  
    - Format: `owner/repo` - no trailing back slash

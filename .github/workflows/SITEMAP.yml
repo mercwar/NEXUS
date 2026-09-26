@@ -1,5 +1,6 @@
 # /* AVIS_COORD: AVIS://GITHUB/WORKFLOW/XML_GEN/1.0 */
 # /* ROLE: Automated XML Sentinel Dispatch */
+# /* PATH: .github/workflows/fire-site.yml */
 
 name: "JOE-TRON :: XML-SITEMAP-DISPATCH"
 
@@ -27,12 +28,12 @@ jobs:
 
       - name: "SENTINEL :: Execute fire-site.sh"
         run: |
-          chmod +x ./sitemap.sh
-          ./sitemap.sh
+          chmod +x ./fire-site.sh
+          ./fire-site.sh
 
       - name: "SENTINEL :: Commit XML Artifact"
         run: |
-          git config --global user.name "Nexus-Bot"
+          git config --global user.name "Sentinel-Bot"
           git config --global user.email "bot@cvbgod.sentinel"
           
           # Stage the map

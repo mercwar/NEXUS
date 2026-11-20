@@ -577,6 +577,9 @@
     <loc>https://github.com/mercwar/NEXUS/blob/main/cyborg_window_controls.js</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/NEXUS/blob/main/.gitmodules</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/image_2026-07-15_080342923.png</loc>
   </url>
   <url>
@@ -737,9 +740,6 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/cbord.cbord</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/NEXUS/blob/main/AVIS-DATALAKE.md</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/NEXUS/blob/main/.github/workflows/fire-site.yml</loc>
